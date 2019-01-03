@@ -18,17 +18,30 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" true) }}
+    {{ $style := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/main.css" "enableSourceMap" true) }}
     <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">
 
 </head>
 <body>
 
-    {{ block "main" . }}
-    {{ end }}
+    <div class="container">
 
-    {{ block "footer" . }}
-    {{ end }}
+        <nav class="nav">
+            <a class="navbar-brand" href="#">Josh Padnick</a>
+            <div class="justify-content-end">
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">Contact</a>
+            </div>
+        </nav>
+
+        {{ block "main" . }}
+        {{ end }}
+
+        {{ block "footer" . }}
+        {{ end }}
+
+    </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
