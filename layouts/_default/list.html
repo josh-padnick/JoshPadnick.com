@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <h1>Welcome - List</h1>
+
+    {{ range .Pages }}
+    <article>
+        <p>{{ .Date.Format "January 2, 2006 3:04pm" }}: {{ .Title }}</p>
+    </article>
+    {{ end }}
+
+{{ end }}
