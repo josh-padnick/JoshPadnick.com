@@ -1,5 +1,6 @@
 # We don't want to commit generated files
 public/
+resources/_gen
 
 # Hide IDE project files
 .idea
