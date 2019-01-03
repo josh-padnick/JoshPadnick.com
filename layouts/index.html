@@ -1,7 +1,7 @@
 {{ define "main" }}
     <h1>Welcome - Home</h1>
 
-    {{ range .Pages }}
+    {{ range .Paginator.Pages }}
     <article>
         <p>{{ .Date.Format "January 2, 2006 3:04pm" }}: <a href="{{ .URL }}">{{ .Title }}</a></p>
     </article>
@@ -12,4 +12,6 @@
         <li><a href="/categories/{{ $key }}">{{ $key }} ({{ $value | len }})</a></li>
     {{ end }}
     </ul>
+
+    {{ partial "pagination.html" . }}
 {{ end }}
