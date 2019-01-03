@@ -1,5 +1,16 @@
+{{ define "title" }}
+    {{ .Site.Title }}: {{ .Title }}
+{{ end }}
+
+{{ define "meta" }}
+    <meta name="description" content="{{ .Params.description }}">
+    <meta name="keywords" content="{{ range $key, $value := .Site.Taxonomies.categories }}{{ $key }}, {{ end }}Josh Padnick, Joshua Padnick">
+    <meta name="author" content="Josh Padnick">
+{{ end }}
+
+
 {{ define "main" }}
-    <p></p><a href="/">Home</a></p>
+    <p><a href="/">Home</a></p>
 
     <h1>Welcome - Posts/List</h1>
 

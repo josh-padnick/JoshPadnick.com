@@ -2,8 +2,10 @@
 title: "example 6"
 date: 2019-01-03T11:56:33-07:00
 draft: true
+description: This is a description
 categories:
 - development
+- about
 
 ---
 

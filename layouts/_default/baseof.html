@@ -3,9 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+
+    {{ block "meta" . }}
+        <meta name="description" content="The website of Josh Padnick">
+        <meta name="keywords" content="Josh Padnick, Joshua Padnick, Gruntwork, DevOps, Entrepreneurship, Capitalism">
+        <meta name="author" content="Josh Padnick">
+    {{ end }}
 
     <title>
         {{ block "title" . }}
