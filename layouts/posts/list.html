@@ -1,11 +1,11 @@
 {{ define "main" }}
     <p></p><a href="/">Home</a></p>
 
-    <h1>Welcome - List/Generic</h1>
+    <h1>Welcome - Posts/List</h1>
 
     {{ range .Pages }}
     <article>
-        <p>{{ .Date.Format "January 2, 2006 3:04pm" }}: {{ .Title }}</p>
+        <p>{{ .Date.Format "January 2, 2006 3:04pm" }}: <a href="{{ .URL }}">{{ .Title }}</a></p>
     </article>
     {{ end }}
 

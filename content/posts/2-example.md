@@ -2,6 +2,11 @@
 title: "Now I'm playing around with markdown"
 date: 2019-01-03T09:35:33-07:00
 draft: true
+categories:
+- markdown
+- development
+- website
+
 ---
 
 his is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
@@ -375,4 +380,6 @@ Or, in pure Markdown, but losing the image sizing and border:
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
 
-
+```html
+<p>Sample</p>
+```

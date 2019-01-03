@@ -1,10 +1,15 @@
 {{ define "main" }}
-<h1>Welcome - Home</h1>
+    <h1>Welcome - Home</h1>
 
-{{ range .Pages }}
-<article>
-    <p>{{ .Date.Format "January 2, 2006 3:04pm" }}: <a href="{{ .URL }}">{{ .Title }}</a></p>
-</article>
-{{ end }}
+    {{ range .Pages }}
+    <article>
+        <p>{{ .Date.Format "January 2, 2006 3:04pm" }}: <a href="{{ .URL }}">{{ .Title }}</a></p>
+    </article>
+    {{ end }}
 
+    <ul>
+    {{ range $key, $value := .Site.Taxonomies.categories }}
+        <li><a href="/categories/{{ $key }}">{{ $key }} ({{ $value | len }})</a></li>
+    {{ end }}
+    </ul>
 {{ end }}

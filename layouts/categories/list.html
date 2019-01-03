@@ -1,0 +1,12 @@
+{{ define "main" }}
+    <p></p><a href="/">Home</a></p>
+
+    <h1>Welcome - Categories/List</h1>
+
+    {{ range .Pages }}
+    <article>
+        <p>{{ .Date.Format "January 2, 2006 3:04pm" }}: <a href="{{ .URL }}">{{ .Title }}</a></p>
+    </article>
+    {{ end }}
+
+{{ end }}
