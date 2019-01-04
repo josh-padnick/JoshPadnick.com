@@ -3,7 +3,7 @@
         <div class="row">
 
             <div class="col">
-                {{ range .Paginator.Pages }}
+                {{ range (.Paginate (where .Pages "Type" "post")).Pages }}
                 <article>
                     <header>
                         <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
