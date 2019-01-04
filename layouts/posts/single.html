@@ -9,14 +9,25 @@
 {{ end }}
 
 {{ define "main" }}
-<p></p><a href="/">Home</a></p>
-
-<h1>Welcome - Posts/Single</h1>
-
-<article>
-    <h2>{{ .Title }}</h2>
-    <small class="">{{ .Date.Format "January 2, 2006 3:04pm" }}</small>
-    {{ .Content }}
-</article>
+<div class="layout-posts">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col">
+            <article>
+                <h1>{{ .Title }}</h1>
+                <section class="meta">
+                    <time datetime="{{ .Date.Format "2006-01-02 03:04:05.000" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                    {{ range .Params.categories }}
+                    <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
+                    {{ end }}
+                </section>
+                <section class="summary">
+                    {{ .Content }}
+                </section>
+            </article>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+</div>
 
 {{ end }}

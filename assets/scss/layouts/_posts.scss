@@ -5,6 +5,7 @@
     color: #aab7ef;
     background-color: #f8f9fa;
     border: 1px solid #cbd3da;
+    text-decoration: none;
   }
 
   section.meta {
@@ -14,5 +15,9 @@
     time {
       font-style: italic;
     }
+  }
+
+  article a {
+    text-decoration: underline;
   }
 }

@@ -1,29 +1,38 @@
 {{ define "main" }}
     <div class="layout-home layout-posts">
-        {{ range .Paginator.Pages }}
-        <article>
-            <header>
-                <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-            </header>
-            <section class="meta">
-                <time datetime="{{ .Date.Format "2006-01-02 03:04:05.000" }}">{{ .Date.Format "January 2, 2006" }}</time>
-                {{ range .Params.categories }}
-                <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
+        <div class="row">
+
+            <div class="col">
+                {{ range .Paginator.Pages }}
+                <article>
+                    <header>
+                        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+                    </header>
+                    <section class="meta">
+                        <time datetime="{{ .Date.Format "2006-01-02 03:04:05.000" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                        {{ range .Params.categories }}
+                        <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
+                        {{ end }}
+                    </section>
+                    <section class="summary">
+                        {{ .Summary }}
+                        {{ if .Truncated }}<a href="{{ .RelPermalink }}">Read More...</a>{{ end }}
+                    </section>
+                </article>
                 {{ end }}
-            </section>
-            <section class="summary">
-                {{ .Summary }}
-                {{ if .Truncated }}<a href="{{ .RelPermalink }}">Read More...</a>{{ end }}
-            </section>
-        </article>
-        {{ end }}
 
-        <ul>
-        {{ range $key, $value := .Site.Taxonomies.categories }}
-            <li><a href="/categories/{{ $key }}">{{ $key }} ({{ $value | len }})</a></li>
-        {{ end }}
-        </ul>
+                {{ partial "pagination.html" . }}
+            </div>
 
-        {{ partial "pagination.html" . }}
+            <div class="col-sm-3">
+                <h5>What I Write About</h5>
+                <ul>
+                    {{ range $key, $value := .Site.Taxonomies.categories }}
+                    <li><a href="/categories/{{ $key }}">{{ $key }} ({{ $value | len }})</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+
+        </div>
     </div>
 {{ end }}
