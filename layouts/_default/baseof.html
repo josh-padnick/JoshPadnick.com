@@ -24,9 +24,9 @@
 </head>
 <body>
 
-    <div class="container">
+    {{ partial "nav" . }}
 
-        {{ partial "nav" . }}
+    <div class="container">
 
         {{ block "main" . }}
         {{ end }}
