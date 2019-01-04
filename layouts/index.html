@@ -1,17 +1,29 @@
 {{ define "main" }}
-    <h1>Welcome - Home</h1>
+    <div class="layout-home layout-posts">
+        {{ range .Paginator.Pages }}
+        <article>
+            <header>
+                <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+            </header>
+            <section class="meta">
+                <time datetime="{{ .Date.Format "2006-01-02 03:04:05.000" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ range .Params.categories }}
+                <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
+                {{ end }}
+            </section>
+            <section class="summary">
+                {{ .Summary }}
+                {{ if .Truncated }}<a href="{{ .RelPermalink }}">Read More...</a>{{ end }}
+            </section>
+        </article>
+        {{ end }}
 
-    {{ range .Paginator.Pages }}
-    <article>
-        <p>{{ .Date.Format "January 2, 2006 3:04pm" }}: <a href="{{ .URL }}">{{ .Title }}</a></p>
-    </article>
-    {{ end }}
+        <ul>
+        {{ range $key, $value := .Site.Taxonomies.categories }}
+            <li><a href="/categories/{{ $key }}">{{ $key }} ({{ $value | len }})</a></li>
+        {{ end }}
+        </ul>
 
-    <ul>
-    {{ range $key, $value := .Site.Taxonomies.categories }}
-        <li><a href="/categories/{{ $key }}">{{ $key }} ({{ $value | len }})</a></li>
-    {{ end }}
-    </ul>
-
-    {{ partial "pagination.html" . }}
+        {{ partial "pagination.html" . }}
+    </div>
 {{ end }}

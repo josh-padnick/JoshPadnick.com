@@ -9,8 +9,6 @@ categories:
 
 ---
 
-This is a page bundle example
-
 {{< imgproc "images/spirit.jpg" Resize "500x" />}}
 {{< imgproc "images/spirit.jpg" Resize "x500" />}}
 {{< imgproc "images/spirit.jpg" Fit "400x500" />}}

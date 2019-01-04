@@ -1,0 +1,18 @@
+.layout-posts {
+
+  // Meta info
+  .badge-category {
+    color: #aab7ef;
+    background-color: #f8f9fa;
+    border: 1px solid #cbd3da;
+  }
+
+  section.meta {
+    display: block;
+    margin-bottom: 10px;
+
+    time {
+      font-style: italic;
+    }
+  }
+}
