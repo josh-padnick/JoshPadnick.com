@@ -4,13 +4,10 @@
 
 
 {{ define "main" }}
-    <p></p><a href="/">Home</a></p>
-
-    <h1>Welcome - Single/Generic</h1>
-
     <article>
         <h2>{{ .Title }}</h2>
-        <small class="">{{ .Date.Format "January 2, 2006 3:04pm" }}</small>
-        {{ .Content }}
+        <section class="content">
+            {{ .Content }}
+        </section>
     </article>
 {{ end }}

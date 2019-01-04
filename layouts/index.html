@@ -6,7 +6,7 @@
                 {{ range (.Paginate (where .Pages "Type" "post")).Pages }}
                 <article>
                     <header>
-                        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+                        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                     </header>
                     <section class="meta">
                         <time datetime="{{ .Date.Format "2006-01-02 03:04:05.000" }}">{{ .Date.Format "January 2, 2006" }}</time>

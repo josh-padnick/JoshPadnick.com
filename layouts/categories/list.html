@@ -1,12 +1,39 @@
 {{ define "main" }}
-    <p></p><a href="/">Home</a></p>
+    <div class="layout-categories layout-posts">
+        <header class="intro">
+            <h1>{{ .Name }}</h1>
+            <div class="numPostsAvailable">
+                {{ $numPosts := (.Paginate (where .Pages "Type" "post")).TotalNumberOfElements }}
+                {{ if eq $numPosts 1 }}
+                <p>1 post available</p>
+                {{ else }}
+                <p>{{ $numPosts }} posts available</p>
+                {{ end }}
+            </div>
+        </header>
 
-    <h1>Welcome - Categories/List</h1>
+        <hr>
 
-    {{ range .Pages }}
-    <article>
-        <p>{{ .Date.Format "January 2, 2006 3:04pm" }}: <a href="{{ .URL }}">{{ .Title }}</a></p>
-    </article>
-    {{ end }}
+        {{ range (.Paginate (where .Pages "Type" "post")).Pages }}
+        <article>
+            <header>
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            </header>
+            <section class="meta">
+                <time datetime="{{ .Date.Format "2006-01-02 03:04:05.000" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ range .Params.categories }}
+                <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
+                {{ end }}
+            </section>
+            <section class="summary">
+                {{ .Summary }}
+                {{ if .Truncated }}<a href="{{ .RelPermalink }}">Read More...</a>{{ end }}
+            </section>
+        </article>
+        {{ end }}
 
+        <div class="d-flex justify-content-center">
+            {{ partial "pagination.html" . }}
+        </div>
+    </div>
 {{ end }}
