@@ -1,0 +1,14 @@
+.layout-about {
+  background: url(http://zurb.com/playground/uploads/upload/upload/87/wood-bg.jpg) repeat;
+  padding: 0;
+
+  .container {
+    padding: 15px;
+    background: rgba(255,255,255,0.2); // Apply a 20% white transparent background
+  }
+
+  p {
+    font-size:1.2rem;
+    color: black;
+  }
+}
