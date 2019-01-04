@@ -8,10 +8,27 @@
   }
 }
 
+// Body
+body {
+  margin-bottom: 40px;
+}
+
 // Nav
 #mainNav {
   border-bottom: 1px solid gainsboro;
   margin-bottom: 35px;
+  padding-left: 0;
+  padding-right: 0;
+
+  a#logo {
+    display: block;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+    //color: white;
+    //background-color: rebeccapurple;
+    padding: 3px 15px;
+  }
 }
 
 // Timestamps

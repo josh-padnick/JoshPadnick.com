@@ -17,7 +17,21 @@
     }
   }
 
-  article a {
-    text-decoration: underline;
+  article {
+    header {
+      h1 {
+        a {
+          color: black;
+        }
+
+        a:hover {
+          color: #6a82eb;
+        }
+      }
+    }
+
+    a {
+      text-decoration: underline;
+    }
   }
 }
