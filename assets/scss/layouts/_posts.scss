@@ -14,6 +14,7 @@
 
     time {
       font-style: italic;
+      margin-right: 10px;
     }
   }
 
@@ -33,12 +34,38 @@
       }
     }
 
-    section.content {
+    section.content, section.summary {
       ol {
         list-style-type: decimal;
-        list-style-position: inside;
         margin-bottom: 1rem;
         margin-left: 2rem;
+      }
+
+      ul {
+        list-style-type: disc;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+      }
+
+      blockquote {
+        margin:0 auto 1rem;
+        font-style:italic;
+        color: #555555;
+        padding: 1.2rem 30px 0.5rem 60px;
+        border-left: 8px solid #78C0A8 ;
+        line-height: 1.6;
+        background:#ededed;
+        position: relative;
+      }
+
+      blockquote::before{
+        font-family: 'Arial', sans-serif;
+        content: "\201C";
+        color:#78C0A8;
+        font-size:4em;
+        position: absolute;
+        left: 10px;
+        top:-10px;
       }
     }
   }
