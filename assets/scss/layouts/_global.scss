@@ -13,9 +13,25 @@ body {
   margin-bottom: 40px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 // Nav
 #navContainer {
   max-width: none;
+
+  a {
+    text-decoration: none;
+  }
+
+  a#logo:hover {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 #mainNav {
@@ -37,4 +53,7 @@ footer {
   color: #bbb;
   font-size: 0.8rem;
   padding-bottom: 15px;
+  position: relative;
+  bottom: 0;
+  margin-top:25px;
 }

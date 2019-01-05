@@ -1,10 +1,42 @@
 .layout-contact {
 
-
   .container {
-    padding: 25px;
-    background-color: #dae0e5;
-    border: 1px solid #b8cbcf;
+    padding: 15px;
+    background-color: #efefef;
+  }
+
+  ul {
+    margin-left:40px;
+  }
+
+  li {
+    display: block;
+    margin-bottom:12px;
+
+    i {
+      margin-right:4px;
+      font-size: 1.5rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  li#linkedin i {
+    color: #4875B4;
+  }
+
+  li#twitter i {
+    color: #33CCFF;
+  }
+
+  li#email i {
+    color: #333333;
   }
 
   form {
