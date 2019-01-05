@@ -1,0 +1,34 @@
+// Inspired by https://zurb.com/playground/css3-polaroids
+
+.polaroid {
+  background: white;
+  display: inline;
+  float: left;
+  margin: 10px 35px 27px 30px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,.5);
+
+  .caption {
+    padding-top: 15px;
+    font-family: "Marker Felt", sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+}
+
+.polaroid.tilt-left {
+  transform: rotate(-2deg);
+}
+
+.polaroid.tilt-right {
+  transform: rotate(2deg);
+}
+
+/* Rotate every fifth image by 5 degrees and offset it */
+//ul.polaroids li:nth-child(5n) a {
+//  -webkit-transform: rotate(5deg);
+//  -moz-transform: rotate(5deg);
+//  position: relative;
+//  right: 5px;
