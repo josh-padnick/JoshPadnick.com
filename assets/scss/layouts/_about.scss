@@ -9,10 +9,19 @@
 
   section.present, section.past, section.purpose {
     padding: 15px 15px;
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
   }
 
   p {
     font-size:1.2rem;
     color: black;
+  }
+
+  hr.intersection {
+    margin-bottom: 30px;
   }
 }
