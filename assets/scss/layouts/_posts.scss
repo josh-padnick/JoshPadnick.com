@@ -25,11 +25,12 @@
 
         a {
           color: black;
-          text-decoration: none; // Hide the underline from post titles
+          text-decoration: none;
         }
 
         a:hover {
           color: #6a82eb;
+          text-decoration: underline;
         }
       }
     }
@@ -48,25 +49,36 @@
       }
 
       blockquote {
-        margin:0 auto 1rem;
-        font-style:italic;
+        margin: 0 auto 1rem;
         color: #555555;
         padding: 1.2rem 30px 0.5rem 60px;
         border-left: 8px solid #78C0A8 ;
         line-height: 1.6;
-        background:#ededed;
+        background: #ededed;
         position: relative;
       }
 
       blockquote::before{
         font-family: 'Arial', sans-serif;
         content: "\201C";
-        color:#78C0A8;
-        font-size:4em;
+        color: #78C0A8;
+        font-size: 4em;
         position: absolute;
         left: 10px;
-        top:-10px;
+        top: -10px;
       }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+
+    div.youtube {
+      margin: 1.5rem 75px;
     }
   }
 }

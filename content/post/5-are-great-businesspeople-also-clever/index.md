@@ -17,6 +17,8 @@ How wrong I was.
 
 Take Richard Branson.  For his very first entrepreneurial undertaking — when he was still just a teenager — he purchased young Chrismas Trees, planted them during the spring, and then resold them at a profit during Christmas time in the winter.  I actually do think that’s pretty clever, especially for a kid.  But really that’s as far as “clever” alone will take you.
 
+<!--more-->
+
 Branson’s next undertaking was the founding of Student Magazine.  At that point, he had to have the leadership and people skills to:
 
 - Recruit a staff

@@ -16,3 +16,4 @@ I’ve been guilty of this, and it’s something I’m actively working to chang
 
 [Read the article for yourself!](http://www.paulgraham.com/distraction.html)
 
+<!--more-->

@@ -4,4 +4,13 @@
     margin-bottom: 40px;
   }
 
+  .categories {
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
 }

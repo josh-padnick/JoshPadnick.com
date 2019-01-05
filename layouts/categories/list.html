@@ -1,39 +1,47 @@
 {{ define "main" }}
     <div class="layout-categories layout-posts">
-        <header class="intro">
-            <h1>{{ .Name }}</h1>
-            <div class="numPostsAvailable">
-                {{ $numPosts := (.Paginate (where .Pages "Type" "post")).TotalNumberOfElements }}
-                {{ if eq $numPosts 1 }}
-                <p>1 post available</p>
-                {{ else }}
-                <p>{{ $numPosts }} posts available</p>
+        <div class="row">
+
+            <div class="col">
+                <header class="intro">
+                    <h1>{{ .Name }}</h1>
+                    <div class="numPostsAvailable">
+                        {{ $numPosts := (.Paginate (where .Pages "Type" "post")).TotalNumberOfElements }}
+                        {{ if eq $numPosts 1 }}
+                        <p>1 post available</p>
+                        {{ else }}
+                        <p>{{ $numPosts }} posts available</p>
+                        {{ end }}
+                    </div>
+                </header>
+
+                <hr>
+
+                {{ range (.Paginate (where .Pages "Type" "post")).Pages }}
+                <article>
+                    <header>
+                        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="{{ .Date.Format "2006-01-02 03:04:05.000" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                        {{ range .Params.categories }}
+                        <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
+                        {{ end }}
+                    </section>
+                    <section class="summary">
+                        {{ .Summary }}
+                        {{ if .Truncated }}<a href="{{ .RelPermalink }}">Read More...</a>{{ end }}
+                    </section>
+                </article>
                 {{ end }}
+
+                <div class="d-flex justify-content-center">
+                    {{ partial "pagination.html" . }}
+                </div>
             </div>
-        </header>
 
-        <hr>
+            <div class="col-sm-3"></div>
 
-        {{ range (.Paginate (where .Pages "Type" "post")).Pages }}
-        <article>
-            <header>
-                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-            </header>
-            <section class="meta">
-                <time datetime="{{ .Date.Format "2006-01-02 03:04:05.000" }}">{{ .Date.Format "January 2, 2006" }}</time>
-                {{ range .Params.categories }}
-                <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
-                {{ end }}
-            </section>
-            <section class="summary">
-                {{ .Summary }}
-                {{ if .Truncated }}<a href="{{ .RelPermalink }}">Read More...</a>{{ end }}
-            </section>
-        </article>
-        {{ end }}
-
-        <div class="d-flex justify-content-center">
-            {{ partial "pagination.html" . }}
         </div>
     </div>
 {{ end }}
