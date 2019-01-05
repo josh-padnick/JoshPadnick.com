@@ -1,0 +1,21 @@
+.layout-contact {
+
+
+  .container {
+    padding: 25px;
+    background-color: #dae0e5;
+    border: 1px solid #b8cbcf;
+  }
+
+  form {
+
+    label {
+      font-weight: bold;
+    }
+
+    textarea#inputInquiry {
+      height: 100px;
+    }
+  }
+
+}

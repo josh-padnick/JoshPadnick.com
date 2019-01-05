@@ -25,10 +25,3 @@
 .polaroid.tilt-right {
   transform: rotate(2deg);
 }
-
-/* Rotate every fifth image by 5 degrees and offset it */
-//ul.polaroids li:nth-child(5n) a {
-//  -webkit-transform: rotate(5deg);
-//  -moz-transform: rotate(5deg);
-//  position: relative;
-//  right: 5px;

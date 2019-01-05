@@ -1,0 +1,31 @@
+{{ define "title" }}
+{{ .Site.Title }}: {{ .Title }}
+{{ end }}
+
+
+{{ define "main" }}
+<div class="layout-contact">
+
+    <p>You can reach me via email at <a href="mailto:josh.padnick.website@gmail.com">josh.padnick.website@gmail.com</a>,
+    or by filling out the form below.<br>Please note that it usually takes me a few days to respond.</p>
+
+    <div class="container">
+        <form action="https://formspree.io/josh.padnick.website@gmail.com" method="POST">
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" name="name" class="form-control" id="inputName" placeholder="e.g. John Doe">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" name="email" class="form-control" id="inputEmail" placeholder="e.g. john.doe@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="inputMessage">What's on your mind?</label>
+                <textarea name="message" class="form-control" id="inputMessage"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+</div>
+{{ end }}
