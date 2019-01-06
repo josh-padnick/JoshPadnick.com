@@ -6,25 +6,35 @@
   }
 
   ul {
-    margin-left:40px;
+    margin-left:20px;
+    margin-bottom: 5px;
   }
 
   li {
-    display: block;
-    margin-bottom:12px;
+    display: inline-block;
+    border: 1px solid #ced4da;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    margin-bottom: 12px;
+    margin-right: 10px;
 
     i {
-      margin-right:4px;
+      margin-right: 4px;
       font-size: 1.5rem;
     }
 
     a {
       text-decoration: none;
+      color: black;
     }
 
     a:hover {
       text-decoration: underline;
     }
+  }
+
+  li:hover {
+    background-color: #efefef;
   }
 
   li#linkedin i {
@@ -33,6 +43,7 @@
 
   li#twitter i {
     color: #33CCFF;
+    margin-right: 0;
   }
 
   li#email i {

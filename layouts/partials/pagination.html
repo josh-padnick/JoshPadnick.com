@@ -3,7 +3,7 @@
 <ul class="pagination">
 
     <li class="page-item{{ if not $pag.HasPrev }} disabled{{ end }}">
-        <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo; Newer Posts</span></a>
+        <a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" class="page-link page-link-newer-posts" aria-label="Previous"><span aria-hidden="true"></span></a>
     </li>
     {{ $.Scratch.Set "__paginator.ellipsed" false }}
     {{ range $pag.Pagers }}
@@ -24,7 +24,7 @@
     {{ end }}
     {{ end }}
     <li class="page-item{{ if not $pag.HasNext }} disabled{{ end }}">
-        <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" class="page-link" aria-label="Next"><span aria-hidden="true">Older Posts &raquo;</span></a>
+        <a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" class="page-link page-link-older-posts" aria-label="Next"><span aria-hidden="true"></span></a>
     </li>
 
 </ul>

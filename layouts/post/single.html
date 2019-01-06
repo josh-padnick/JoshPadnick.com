@@ -18,7 +18,7 @@
                 </header>
                 <section class="meta">
                     <time datetime="{{ .Date.Format "2006-01-02 03:04:05.000" }}">{{ .Date.Format "January 2, 2006" }}</time>
-                    {{ range .Params.categories }}
+                    <span class="categories">{{ range .Params.categories }}</span>
                     <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
                     {{ end }}
                 </section>
