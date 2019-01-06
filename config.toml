@@ -3,3 +3,6 @@ languageCode = "en-us"
 title = "Josh Padnick"
 
 paginate = 3
+
+[permalinks]
+  post = "/:year/:month/:title/"
