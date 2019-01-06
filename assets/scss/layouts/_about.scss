@@ -24,4 +24,26 @@
   hr.intersection {
     margin-bottom: 30px;
   }
+
+  // Handle polaroid widths responsively
+  @include media-breakpoint-up(xs) {
+    #gruntwork-logo img { width: 210px; }
+    #phoenix-devops-logo img { width: 210px; }
+    #edaris-logo img { width: 210px; }
+    #omedix-logo img { width: 210px; }
+    #upenn-logo img { width: 210px; }
+    #asu-logo img { width: 210px; }
+    #family-pic img { width: 210px; }
+  }
+
+  @include media-breakpoint-up(sm) {
+    #gruntwork-logo img { width: 250px; }
+    #phoenix-devops-logo img { width: 300px; }
+    #edaris-logo img { width: 300px; }
+    #omedix-logo img { width: 300px; }
+    #upenn-logo img { width: 300px; }
+    #asu-logo img { width: 300px; }
+    #family-pic img { width: 250px; }
+  }
 }
+
