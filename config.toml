@@ -4,5 +4,7 @@ title = "Josh Padnick"
 
 paginate = 3
 
+summaryLength = 150
+
 [permalinks]
   post = "/:year/:month/:title/"
