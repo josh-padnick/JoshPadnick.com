@@ -14,3 +14,10 @@ This is an example of a Vimeo shortcode:
 This is an example of a slideshare shortcode:
 
 {{< slideshare id="34267737" >}}
+
+This is an example of an image. See [https://gohugo.io/content-management/image-processing/#image-processing-methods](https://gohugo.io/content-management/image-processing/#image-processing-methods) for additional info: 
+
+{{< imgproc "images/violin.png" Fit "400x500" >}}This is an example of a caption{{</imgproc>}}
+{{< imgproc "images/violin.png" Resize "500x" >}}This is an example of a caption{{</imgproc>}}
+{{< imgproc "images/violin.png" Resize "x500" >}}This is an example of a caption{{</imgproc>}}
+{{< imgproc "images/violin.png" Fill "400x500" >}}This is an example of a caption{{</imgproc>}}

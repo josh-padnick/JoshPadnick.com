@@ -104,3 +104,14 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
+
+// Images
+
+figure {
+  text-align: center;
+
+  figcaption {
+    font-style: italic;
+    text-align: center;
+  }
+}
