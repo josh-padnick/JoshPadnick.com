@@ -52,6 +52,6 @@ The reality is that if you knew the optimal route to build, market, and sell a p
 
 So there it is:
 
-    *Most endeavors of consequence involve high degrees of uncertainty in going from Point A to Point B
-    *Uncertainty = lack of clarity = lots of noise to cut through
-    *Cutting through the noise is hard and non-obvious, but once you’re able to do it, the results are spectacular
+* Most endeavors of consequence involve high degrees of uncertainty in going from Point A to Point B
+* Uncertainty = lack of clarity = lots of noise to cut through
+* Cutting through the noise is hard and non-obvious, but once you’re able to do it, the results are spectacular

@@ -37,8 +37,8 @@ The author of the course argued — correctly, in my opinion — that it turns y
 
 **Summary**
 
-    * __Give before you get__
-    * Give without expecting anything back
-    * But high-five yourself when something does come back to you
-    * Turn on to life by tasking responsibility for everything around you
-    * …even while recognizing that there’s only so much you can do.
+* __Give before you get__
+* Give without expecting anything back
+* But high-five yourself when something does come back to you
+* Turn on to life by tasking responsibility for everything around you
+* …even while recognizing that there’s only so much you can do.
