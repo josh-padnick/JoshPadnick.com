@@ -1,5 +1,5 @@
 ---
-title: "The Best Tour Guide I’ve Ever Had"
+title: "Sometimes Pursuing a Goal is the Worst Way to Achieve It"
 date: 2006-05-08T00:00:00-07:00
 draft: false
 categories:
