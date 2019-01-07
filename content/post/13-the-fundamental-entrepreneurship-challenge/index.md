@@ -3,9 +3,9 @@ title: "The Fundamental Entrepreneurship Challenge"
 date: 2011-06-28T00:00:00-07:00
 draft: false
 categories:
-- Entrepreneurship
-- Zen
-- General
+- entrepreneurship
+- zen
+- general
 
 ---
 > __**Thrashing** n. To expend a disproportionately high amount of energy relative to the quality of output you receive__
