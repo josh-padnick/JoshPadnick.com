@@ -28,7 +28,7 @@ I was speaking to someone from Southeast Asia once and asked him what surprised 
 
 It’s a good question!  Why don’t we call it “stress elimination” instead of “we know you can’t get rid of it, but here’s how you can make it better.”  Is stress just an unvoidable part of life, or a socially accepted particular type of craziness?
 
-I originally got into entrepreneurship because I’ve always been excited about creating something with technology and I didn’t want to be limited by anything other than myself. Each entrepreneur and business person I’ve met as their own motivators for getting into business, but almost all of them deal with non-trivial levels of stress.
+I originally got into entrepreneurship because I’ve always been excited about creating something with technology and I didn’t want to be limited by anything other than myself. Each entrepreneur and business person I’ve met has their own motivators for getting into business, but almost all of them deal with non-trivial levels of stress.
 
 I see stress as having two key components:
 (1) the intense desire to achieve a particular outcome, and

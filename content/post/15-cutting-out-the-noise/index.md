@@ -4,7 +4,7 @@ date: 2011-12-26T00:00:00-07:00
 draft: false
 categories:
 - entrepreneurship
-- Zen
+- zen
 - general
 
 ---

@@ -14,7 +14,7 @@ Earlier today, I met a friend for breakfast who’s an outstanding professional 
 
 He gave a beautiful analogy in response.
 
-{{< imgproc "images/violin.png" Fit "400x500" >}}Violin{{</imgproc>}}
+{{< imgproc "images/violin.png" Fit "400x500" />}}
 
 “Consider the violin.  It has one of the most difficult user interfaces in the world to use.  But if you’re willing to put in the thousands of hours of practice, you can make such beautiful music with it.  There has to be that trade off.  If we demand of our users a steep learning curve, they had better be able to produce some beautiful music.”
 

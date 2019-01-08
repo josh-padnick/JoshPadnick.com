@@ -27,9 +27,9 @@ There’s one other interesting corollary to this that I learned recently, and i
 
 **Take responsibility for literally everything in the world.**
 
-I got it from an online course in personal development I took.  The idea is that even when your’e responsible for something, you still have limited action.  If you’re responsible for running an insurance company, you still can’t prevent earthquakes.  But if you’re responsible for watching a baby, you can do a good job of that.
+I got it from an online course in personal development I took.  The idea is that even when your’re responsible for something, you still have limited action.  If you’re responsible for running an insurance company, you still can’t prevent earthquakes.  But if you’re responsible for watching a baby, you can do a good job of that.
 
-You can take responsibility for ANYTHING.  But when it comes time to act, you cant’ do everything.
+You can take responsibility for ANYTHING.  But when it comes time to act, you can't do everything.
 
 So, if you choose to take responsibility for everything around — how hungry someone is, how much work the person next to you is getting done, how happy your friend is, how successful your colleague is — you soon realize that you can’t possibly do everything for everyone but there’s a lot you can do for a lot of people that’s within your power.
 
@@ -40,5 +40,5 @@ The author of the course argued — correctly, in my opinion — that it turns y
 * __Give before you get__
 * Give without expecting anything back
 * But high-five yourself when something does come back to you
-* Turn on to life by tasking responsibility for everything around you
+* Turn on to life by taking responsibility for everything around you
 * …even while recognizing that there’s only so much you can do.
