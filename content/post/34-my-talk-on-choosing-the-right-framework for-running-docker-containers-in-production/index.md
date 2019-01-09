@@ -13,6 +13,7 @@ I spoke today at [Iterate.PHX](http://www.iteratephx.co/), a DevOps conference p
 My topic was on choosing the right framework for running docker containers in production. I specifically focus on the “multi-container VM” paradigm since if you’re OK to just run a single container per VM, then you don’t really need a framework at all. In that case, Docker is really just your deployment artifact.
 
 The slides are below, and if there’s a video of the talk I’ll add that here as well. Enjoy!
-<!--Add Slide Here-->
+
+{{< slideshare id="52304367" >}}
 
 [Choosing the Right Framework for Running Docker Containers in Prod](https://www.slideshare.net/JoshPadnick/choosing-the-right-framework-for-running-docker-containers-in-prod) from [Josh Padnick](https://www.slideshare.net/JoshPadnick)

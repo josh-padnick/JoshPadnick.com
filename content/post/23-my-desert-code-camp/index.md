@@ -10,4 +10,4 @@ categories:
 I gave this talk at Desert Code Camp earlier today as part of the DevOps track. It gives an introduction to Chef with a special emphasis on getting you to Hello World and beyond.
 
 They say Chef has a steep learning curve, but I think that’s only because there are a lot of concepts you need to know before you can do the most basic things. I tried to cover most of those concepts here. I also included some best practices I discovered such as how to handle secrets like passwords and certificates using Chef.
-<!-- add slide -->
+{{< slideshare id="33170504" >}}

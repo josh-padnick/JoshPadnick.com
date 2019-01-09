@@ -7,7 +7,7 @@ categories:
 - software
 
 ---
-I recently gave a talk at Desert Code Camp 2013.2 on an introduction to Play Framework. I’m just getting started with it, but there are several concepts that got me interested:
+I recently gave a talk at Desert Code Camp 2013.2 on an introduction to [Play Framework](http://playframework.com/). I’m just getting started with it, but there are several concepts that got me interested:
 
 * Non-blocking / Evented vs. Threaded
 * Command-line interface to compile, test, and more
@@ -15,4 +15,4 @@ I recently gave a talk at Desert Code Camp 2013.2 on an introduction to Play Fra
 * Written using a Functional Programming paradigm
 * Super-easy for creating RESTful web services
 The devil’s always in the details, of course, but it’s been a blast so far! More to come on Play…
-<!-- add slide -->
+{{< slideshare id="34267737" >}}

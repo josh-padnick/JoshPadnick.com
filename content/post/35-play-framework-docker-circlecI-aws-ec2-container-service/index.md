@@ -18,4 +18,5 @@ I created 4 public GitHub repos to implement this:
 * (https://github.com/PhoenixDevOps/phxjug-play-framework-demo)
 * (https://github.com/PhoenixDevOps/phxjug-ecs-cluster)
 Check out slide 36 for some directions on how to use all these items together, although I recognize the overall documentation may not be suitable for beginners since the presentation itself filled in the gaps in the slides. Enjoy!
-<!--Add Slide Here-->
+
+{{< slideshare id="55026763" >}}
