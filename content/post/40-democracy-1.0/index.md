@@ -34,7 +34,7 @@ But it just doesn’t work that way today. First, there’s the issue of [gerrym
 
 And according to [Gallup](http://www.gallup.com/poll/188096/democratic-republican-identification-near-historical-lows.aspx), here are the percentages of registered Democrats vs. Republicans:
 
-{{< imgproc "images\Screen-Shot-2016-11-12-at-9.41.11-PM.png" Fit "400x500" />}}
+{{< imgproc "images/Screen-Shot-2016-11-12-at-9.41.11-PM.png" Fit "400x500" />}}
 
 Also, 42% of registered voters identify as independent. Yet Republicans control 55% of the US House of Representatives seats?
 
