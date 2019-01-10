@@ -30,7 +30,7 @@ So is democracy 1.0 failing us? I think it is in some profound and interesting w
 In an ideal democracy, there would be a real and palpable sense that your vote counts, and the system would guarantee that all votes are treated equally.
 
 But it just doesn’t work that way today. First, there’s the issue of [gerrymandering](https://en.wikipedia.org/wiki/Gerrymandering_in_the_United_States). Here’s the US House of Representatives breakdown after the election:
-{{< imgproc "images\Screen-Shot-2016-11-12.png" Fit "400x500" />}}
+{{< imgproc "images/Screen-Shot-2016-11-12.png" Fit "400x500" />}}
 
 And according to [Gallup](http://www.gallup.com/poll/188096/democratic-republican-identification-near-historical-lows.aspx), here are the percentages of registered Democrats vs. Republicans:
 

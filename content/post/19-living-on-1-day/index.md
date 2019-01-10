@@ -47,7 +47,7 @@ That feels unfair.  Out of that 200-to-1 ratio, how much of the 200 is due to an
 I may understand the economic forces that give rise to that disparity, but how much did I do personally to be at the favorable end of them?
 
 And then there’s this somewhat complicated looking diagram.  You can click the image to see the full view, or just keep reading:
-{{< imgproc "images\spiral_dynamics_aqal.jpg" Fit "400x500" >}} [Image Source](http://pialogue.info/definitions/Spiral_Dynamics_Integral_SDi.php){{</imgproc>}}
+{{< imgproc "images/spiral_dynamics_aqal.jpg" Fit "400x500" >}} [Image Source](http://pialogue.info/definitions/Spiral_Dynamics_Integral_SDi.php){{</imgproc>}}
 
 This diagram shows “Spiral Dynamics,” a concept I first learned about while reading a [speech from Whole Foods CEO John Mackey](http://www.wholefoodsmarket.com/blog/john-mackeys-blog/upward-flow-human%C2%A0development).  The basic idea here is that, as a society and as individuals we operate within the context of an “evolutionary paradigm.”  We’ve already come a long way from the days of “survival bands”, authoritarian nation states, or feudalism, but we still have further to go.
 

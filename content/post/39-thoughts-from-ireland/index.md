@@ -8,7 +8,7 @@ categories:
 
 ---
 This past week I had the pleasure of visiting my [esteemed Gruntwork co-founder](http://ybrikman.com/?ref=joshpadnick.com/ireland) where he currently lives in Dublin, Ireland. I had a blast, it was awesome to work in person with Jim, and it was the first time I’ve been to Europe in about 15 years!
-{{< imgproc "images\IMG_4449-1.png" Fit "400x500" >}}Sort of looks like Jim and I are opening a pizzeria together.{{</imgproc>}}
+{{< imgproc "images/IMG_4449-1.png" Fit "400x500" >}}Sort of looks like Jim and I are opening a pizzeria together.{{</imgproc>}}
 
 In theory, Irish culture and American culture aren’t much different. We both speak English as our primary language, we both eventually left the rule of the UK, and much of Ireland feels like a typical Western country. But there are some really interesting differences, too, and to make sure I don’t forget them, here they are!
 <!--more-->

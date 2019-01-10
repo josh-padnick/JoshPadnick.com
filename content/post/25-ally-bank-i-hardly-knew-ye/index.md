@@ -9,7 +9,7 @@ categories:
 ---
 This is my review of my first couple of weeks with Ally Bank, and why I ultimately decided to stay with stodgy, old Chase.
 
-{{< imgproc "images\ALLY_Bank_withRegistration.jpg" Fit "400x500" />}}
+{{< imgproc "images/ALLY_Bank_withRegistration.jpg" Fit "400x500" />}}
 
 When I was 16 years old, I went with my Mom to a local Bank One branch to open my own personal checking account. Bank One eventually got acquired by Chase, and so I’ve effectively been a Chase customer for more than half my life!
 
@@ -27,7 +27,7 @@ So I decided to invest my energy in trying out a new bank. After all, it’s 201
 After googling around for a while, I eventually concluded that Ally Bank was the embodiment of the new banking paradigm.  At least from their website.
 
 I was excited by this:
-{{< imgproc "images\Screen-Shot-2014-09-06-at-12.26.18-PM.png" Fit "400x500" />}}
+{{< imgproc "images/Screen-Shot-2014-09-06-at-12.26.18-PM.png" Fit "400x500" />}}
 
 Ah, they’re exactly addressing my problem.  Transparency in fees!  Digging a little deeper I also saw these exciting benefits:
 
@@ -64,7 +64,7 @@ But, here my professional software engineering background clued me into some bad
 
 One of the most troubling things was that I could see some information on the app…
 
-{{< imgproc "images\ally-bank-iphone-app.png" Fit "400x500" />}}
+{{< imgproc "images/ally-bank-iphone-app.png" Fit "400x500" />}}
 
 that simply wasn’t available on the online site!
 
@@ -74,13 +74,13 @@ The other issue that’s concerning about that online check deposit is the sched
 
 Indeed, according to their website…
 
-{{< imgproc "images\Screen-Shot-2014-09-06-at-1.13.49-PM.png" Fit "400x500" />}}
+{{< imgproc "images/Screen-Shot-2014-09-06-at-1.13.49-PM.png" Fit "400x500" />}}
 
 Since almost every check is not from Ally Bank, that means I get $200 the next business day (which is reasonable), but $4800 two business days later, and more than $5,000 after 5 business days.  Yuck!
 
 Again, stodgy old Chase wins out.  Chase limits the amount of of online deposits I can do far more than Ally…
 
-{{< imgproc "images\Screen-Shot-2014-09-06-at-1.20.05-PM-1024x1871.png" Fit "400x500" />}}
+{{< imgproc "images/Screen-Shot-2014-09-06-at-1.20.05-PM-1024x1871.png" Fit "400x500" />}}
 
 But they have a physical branch I can walk into if I need to deposit more, so I’m covered either way.
 
