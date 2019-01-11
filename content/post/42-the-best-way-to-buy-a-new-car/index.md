@@ -24,7 +24,8 @@ It’s also worth mentioning that, as you’ll see, the whole setup of the car b
 
 Alright, here we go.
 
-## **How It Works in a Nutshell**
+## How It Works in a Nutshell
+
 1. Decide on the exact car and options/upgrades that you want.
 1. Get basic pricing info, including MSRP and invoice pricing.
 1. Figure out the condition of your trade-in, if any, and estimate its value.
@@ -32,10 +33,12 @@ Alright, here we go.
 1. Compare the bids, offer competing dealers to match, and choose your favorite dealer.
 1. Buy the car.
 
-## **Background Knowledge**
+## Background Knowledge
+
 Before I get into the specifics of each of those steps, it’s important to be aware of some key concepts about buying a new car.
 
-## **The dealer knows way more than you do.**
+## The dealer knows way more than you do.
+
 First and foremost, the dealer sells many cars to many people, whereas you buy a car maybe once every few years. Naturally, the dealer has a huge information advantage on you. We’ll cover specifics later, but suffice it to say that the only mechanism that reveals the true profit margin of the dealer is the auction process itself.
 
 My advice is to make some effort to know the real numbers (MSRP, whatever you can find on invoice price), but also accept that it’s very difficult for you to close the full information gap.
@@ -44,7 +47,8 @@ I believe this dynamic creates the classic “sleazy car salesman” stereotype.
 
 Philosophically, I believe the dealer needs to make a profit on each sale to cover the cost of their salesmen, their building, the opportunity to give me a test drive, etc., but I’d rather negotiate on what that profit is rather than play the sucker.
 
-## **The true profit margin on a car comes from many places.**
+## The true profit margin on a car comes from many places.
+
 The naive take on a dealer’s profit margin is that the dealer buys the car from the car manufacturer at what’s called the “invoice price”, sells the car to you at a higher amount than that, and his profit is the difference.
 
 In fact, a dealer will often show you his invoice price and say “Look, I’m charging you what I paid for the car. I’m not making any money on this deal!”
@@ -73,7 +77,8 @@ Seventh, after you agree on a final car price and go to the “finance guy” yo
 
 So, as you can see, the invoice price is a pretty lousy way to compute how much profit the dealer’s making.
 
-## **The dynamic with the salesperson can sometimes be frustrating either way.**
+## The dynamic with the salesperson can sometimes be frustrating either way.
+
 As I’ve reflected on all the car buying experiences I’ve ever had — witnessing my parents buying a car, buying my wife’s car, buying my car, this latest new car — there are four different social dynamics I experienced with sales people, three of them equally frustrating, and one of them satisfying.
 
 By the way, the frustrating dynamics are not a knock on the individuals who work hard selling cars. I respect their effort to get out there and work to make a living. The frustrating dynamics are more a criticism of the system in which they work, and the resultant vibe that comes out of it.
@@ -88,10 +93,12 @@ Fourth, I’ve encountered the talented salesperson who can honor my needs and h
 
 This salesperson has the technical knowledge to educate you about the car, the sales skills to guide you through the buying process, and the moral compass not to cross the line. He’s still selling, but he’s allowing you to buy.
 
-## **Nothing will push your out-the-door price down like competition.**
+## Nothing will push your out-the-door price down like competition.
+
 The final insight is that negotiating in person is the sucker’s game compared to the competitive power of an auction. With all the information advantages a dealer has, the most likely outcome with 1-on-1 negotiating is you’ll get a significantly worse deal than you could have if you knew what the dealer knows.
 
 With the auction process, I found that (a) almost every dealer that had the car I wanted in stock or available to them was willing to participate, and (b) the prices started to naturally converge on a number.
 
-## **To be continued…**
-Wow, this turned out to be a lot longer than I anticipated. If you found this useful and want me to write more, please leave a comment below. If I get some interest, I’ll try to make the time. Thanks for reading!
+## To be continued…
+
+Wow, this turned out to be a lot longer than I anticipated. If you found this useful and want me to write more, please leave a comment below. If I get some interest, I’ll try to make the time. 

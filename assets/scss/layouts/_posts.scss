@@ -59,6 +59,12 @@
     }
 
     section.content, section.summary {
+      h2 {
+        font-size: 1.6rem;
+        margin-top: 20px;
+        line-height: 2.2rem;
+      }
+
       ol {
         list-style-type: decimal;
         margin-bottom: 1rem;
