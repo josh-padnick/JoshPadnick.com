@@ -29,8 +29,12 @@
                         {{ end }}
                     </section>
                     <section class="summary">
+                        {{ if .Truncated }}
                         {{ .Summary }}
-                        {{ if .Truncated }}<a href="{{ .RelPermalink }}">Read More...</a>{{ end }}
+                        <a href="{{ .RelPermalink }}">Read More...</a>
+                        {{ else }}
+                        {{ .Content }}
+                        {{ end }}
                     </section>
                 </article>
                 {{ end }}
