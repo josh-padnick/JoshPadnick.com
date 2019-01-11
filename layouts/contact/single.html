@@ -6,37 +6,41 @@
 {{ define "main" }}
 <div class="layout-contact">
 
-    <p>You can reach me via:</p>
-
-    <ul>
-        <li id="twitter"><i class="align-middle fab fa-twitter"></i> <a href="https://twitter.com/OhMyGoshJosh">@OhMyGoshJosh</a></li>
-        <li id="linkedin"><i class="align-middle fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/joshpadnick/">josh-padnick</a></li>
-        <li id="github"><i class="align-middle fab fa-github"></i> <a href="https://github.com/josh-padnick">josh-padnick</a></li>
-        <li id="email"><i class="align-middle far fa-envelope"></i> <a href="mailto:josh.padnick.website@gmail.com">josh.padnick.website@gmail.com</a></li>
-    </ul>
-
-    <p>To send me information securely, enrypt your message with my <a href="https://keybase.io/OhMyGoshJosh">Keybase account</a> and email me the ciphertext.</p>
-
-    <hr>
-
-    <p>Or you can fill out the form below.<br>Please note that, regardless of the channel, it usually takes me a few days to respond.</p>
-
     <div class="container">
-        <form action="https://formspree.io/josh.padnick.website@gmail.com" method="POST">
-            <div class="form-group">
-                <label for="inputName">Name</label>
-                <input type="text" name="name" class="form-control" id="inputName" placeholder="e.g. John Doe">
+        <div class="row">
+            <div class="col-lg-7 contact-form">
+                <form action="https://formspree.io/josh.padnick.website@gmail.com" method="POST">
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" name="name" class="form-control" id="inputName" placeholder="e.g. John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" name="email" class="form-control" id="inputEmail" placeholder="e.g. john.doe@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">What's on your mind?</label>
+                        <textarea name="message" class="form-control" id="inputMessage"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
-            <div class="form-group">
-                <label for="inputEmail">Email</label>
-                <input type="email" name="email" class="form-control" id="inputEmail" placeholder="e.g. john.doe@gmail.com">
+
+            <div class="col">
+                <div class="col-centered">
+                    <ul>
+                        <li id="twitter"><a href="https://twitter.com/OhMyGoshJosh"><i class="align-middle fab fa-twitter"></i></a></li>
+                        <li id="linkedin"><a href="https://www.linkedin.com/in/joshpadnick/"><i class="align-middle fab fa-linkedin"></i></a></li>
+                        <li id="github"><a href="https://github.com/josh-padnick"><i class="align-middle fab fa-github"></i></a></li>
+                        <li id="stack-overflow"><a href="https://stackoverflow.com/users/2308858/josh-padnick?tab=profile"><i class="align-middle fab fa-stack-overflow"></i></a></li>
+                        <li id="email"><a href="mailto:josh.padnick.website@gmail.com"><i class="align-middle far fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <p>To send me information securely, enrypt your message with my <a href="https://keybase.io/OhMyGoshJosh">Keybase account</a> and email me the ciphertext,
+                    or send it using the contact form.</p>
+                <p>Please note that, regardless of the channel, it usually takes me a few days to respond.</p>
             </div>
-            <div class="form-group">
-                <label for="inputMessage">What's on your mind?</label>
-                <textarea name="message" class="form-control" id="inputMessage"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
     </div>
 
 </div>

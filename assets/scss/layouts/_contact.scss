@@ -2,11 +2,9 @@
 
   .container {
     padding: 15px;
-    background-color: #efefef;
   }
 
   ul {
-    margin-left:20px;
     margin-bottom: 5px;
   }
 
@@ -33,10 +31,6 @@
     }
   }
 
-  li:hover {
-    background-color: #efefef;
-  }
-
   li#linkedin i {
     color: #4875B4;
   }
@@ -46,8 +40,17 @@
     margin-right: 0;
   }
 
+  li#stack-overflow i {
+    color: #f48024;
+  }
+
   li#email i {
     color: #333333;
+  }
+
+  .contact-form {
+    border-right: 1px solid #eeeeee;
+    padding-right: 50px;
   }
 
   form {
@@ -56,8 +59,20 @@
       font-weight: bold;
     }
 
-    textarea#inputInquiry {
-      height: 100px;
+    textarea#inputMessage {
+      height: 150px;
+    }
+  }
+
+  @include media-breakpoint-up(xs) {
+    ul {
+      margin-top:50px;
+    }
+  }
+
+  @include media-breakpoint-up(sm) {
+    ul {
+      margin-top:0px;
     }
   }
 
