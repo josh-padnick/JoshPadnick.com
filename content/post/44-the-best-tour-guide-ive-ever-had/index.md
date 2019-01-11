@@ -1,6 +1,6 @@
 ---
 title: "The Best Tour Guide I’ve Ever Had"
-date: 2019-01-03T15:56:33-07:00
+date: 2017-11-25T00:00:00-07:00
 draft: true
 description: This is a description
 categories:
