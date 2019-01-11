@@ -15,5 +15,3 @@ My topic was on choosing the right framework for running docker containers in pr
 The slides are below, and if there’s a video of the talk I’ll add that here as well. Enjoy!
 
 {{< slideshare id="52304367" >}}
-
-[Choosing the Right Framework for Running Docker Containers in Prod](https://www.slideshare.net/JoshPadnick/choosing-the-right-framework-for-running-docker-containers-in-prod) from [Josh Padnick](https://www.slideshare.net/JoshPadnick)

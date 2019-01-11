@@ -14,7 +14,8 @@ A frame is basically the set of beliefs, contexts, and assumptions that implicit
 Anyway, after I finished reading Pitch Anything, I have been blessed with a special insight into how I and others think, and to the social dynamics underlying most business transactions.
 
 Take sales, for example.  When I first started out doing sales, my mentality was always about understanding what the client was saying as precisely as possible and, to the greatest extent possible, providing him with exactly what he requested.  But it turns out that’s not the best way to do business.  Often times, I’ve found, people respect when you challenge them because they see it as an opportunity for growth.  I realized one day that with myself, when someone challenges me head-on, I find them really interesting and then start engaging about why they disagree.
-<!-- more -->
+
+<!--more-->
 
 So, basically, I stopped unconditionally accepting the frame of my client, and started to present my own frame.  I don’t have to “win” the frame discussion, but at least today I get to mentally decide what I want to do and recognize what’s happening.
 

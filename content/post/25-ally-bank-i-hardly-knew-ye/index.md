@@ -16,7 +16,8 @@ When I was 16 years old, I went with my Mom to a local Bank One branch to open m
 But it’s been a love-hate relationship. On the positive side, it seems that no matter where in the United States I am, I’m always less than 3 miles from a Chase branch, so it’s definitely convenient. I also don’t worry about Chase failing so it seems like a safe place to keep my family’s money. Their iPhone app is actually pretty good, especially the ability to remotely deposit checks.
 
 But on the downside, I often get a “big bank” feel from them, mostly owing to the fact that I don’t really have a personal relationship with anyone there. I find I’m usually just engaging the “Chase Infrastructure” rather than contacting a specific person I know.
-<!-- more -->
+
+<!--more-->
 
 A few months ago, I noticed a $20/month fee started appearing in my account. This was puzzling because I didn’t make any account changes, and my average daily balance had either stayed the same or increased. That $20/fee is still being charged but it’s just small enough money that I’m too lazy to call up, inquire, complain, make changes, etc.
 

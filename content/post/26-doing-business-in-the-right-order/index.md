@@ -10,7 +10,8 @@ categories:
 Recently I celebrated my 10th year at [Omedix](http://omedix.com/), the company I started when I was 24 years old.  At 34, it is a little hard to imagine I’ve done anything for 10 years!
 
 The milestone has made me reflect on some of the early decisions I made when I first got started.  There were many really good decisions, but there were plenty of bad ones, too.  And of course when you’re in your early 20’s you have that perfect combination of extreme confidence and supreme ignorance.  Sometimes that can be a good thing, and sometimes it can be as bad as it sounds.
-<!-- more -->
+
+<!--more-->
 
 One thing I didn’t appreciate 10 years ago is that most things in life have a certain proper order to them.  You crawl, then walk, and then run.  You become friends, you go on a date, you get engaged, you get married.  You run a 5k, a 10k, and then a half-marathon.  You get the idea.
 

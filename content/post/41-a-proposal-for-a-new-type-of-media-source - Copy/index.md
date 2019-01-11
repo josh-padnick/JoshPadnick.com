@@ -1,5 +1,5 @@
 ---
-title: "A Proposal for a new type of media source 'True News'"
+title: "A Proposal for a new type of media source: \"True News\""
 date: 2016-11-25T00:00:00-07:00
 draft: false
 categories:

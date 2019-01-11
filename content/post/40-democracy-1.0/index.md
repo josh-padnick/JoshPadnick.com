@@ -50,17 +50,17 @@ Either way, it’s a disgusting, undemocratic process and it should be illegal.
 
 **Problem #2: Non-Representation by the Electoral College**
 
-Every district in the USA has a representative in the House of Represenatives. Every state gets two senators. It seems that gives a district representation and a state representation.
+Every district in the USA has a representative in the House of Representatives. Every state gets two senators. It seems that gives a district representation and a state representation.
 
 But what about electing the President? It seems to me that a straight popular vote most accurately reflects the will of the people. But instead, we lumber on with the outdated electoral college system.
 
 The history here is pretty interesting. Basically, at the Constitutional Convention way back in 1787, delegates were debating how the President should be elected. The obvious option here was to just take a popular vote, but the big elephant in the room was that all the Southern states had slaves, so does that mean that the slaves get to vote, too?
 
-Well, the compromise that solved the problem was that states would designate their own “electors” who would then place a vote for the President themselves. This way, the slaves wouldn’t have to be explicitly denied the rigth to vote. (source)
+Well, the compromise that solved the problem was that states would designate their own “electors” who would then place a vote for the President themselves. This way, the slaves wouldn’t have to be explicitly denied the right to vote. ([source](https://en.wikipedia.org/wiki/Electoral_College_(United_States)))
 
 I honestly can’t think of a better example of an anachronism. Unfortunately, only a constitutional amendment can change the Electoral College, and that requires the Senate and House of Representatives to each pass a 2/3 vote, and 3/4 of all state legislatures to pass it.
 
-But who would be politically motivated enough to pass a law to replace the electoral college? Especially after their party’s leader benefitted from it? Exactly, nobody.
+But who would be politically motivated enough to pass a law to replace the electoral college? Especially after their party’s leader benefited from it? Exactly, nobody.
 
 **Problem #3: Rampant Misinformation**
 

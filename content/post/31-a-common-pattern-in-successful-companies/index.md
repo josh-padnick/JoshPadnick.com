@@ -11,10 +11,13 @@ I’ve been helping software teams accelerate and succeed with DevOps and Amazon
 
 I’ve seen high-performing teams in companies that are about to IPO, software teams in Fortune 100 companies, startups of about 10 engineers, and software-based companies of no engineers at all! It’s been incredibly enlightening for me to learn about how people organize themselves to get sh*t done.
 
+<!--more-->
+
 One of the other cool things about my line of work is that it’s right when companies are about to scale to the next level that they call me. So, for the most part, the companies I interact with, are successful startups on the verge of fast growth.
 
 Now here’s the interesting pattern I see. I have yet to work with a single software team that doesn’t suffer some level of “embarrassment” about the state of their codebase, the “amateur” methods they used to get the job done, the duct tape they used here, or the total-makeshift-not-scalable solution they used there. It’s a really…unexpected combination: a business whose growth rate and product-market fit looks awesome, and whose product is filled with shortcomings.
-<!-- more -->
+
+<!--more-->
 
 I’ve also been involved — as a team member, not a consultant — on teams where the opposite approach was taken. Where software quality and thoughtfulness was trumpeted as the #1 priority, even above moving fast. On that team, that software wasn’t perfect either, but the standard of quality that we held ourselves to sure was admirable.
 
