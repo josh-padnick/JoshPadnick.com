@@ -17,7 +17,7 @@ a {
     padding: 0;
 
     @include media-breakpoint-up(xs) {
-      margin-bottom:20px;
+      margin-bottom: 30px;
     }
 
     @include media-breakpoint-up(sm) {
@@ -56,17 +56,13 @@ a {
       text-decoration: underline;
     }
 
-    #links {
-      height: 54px;
+    #collapsingNavbar {
+      margin-top:20px;
+      padding-bottom: 15px;
+      //height: 54px;
     }
 
     @include media-breakpoint-up(xs) {
-      #navContainer {
-        #mainNav {
-          margin-bottom:30px;
-        }
-      }
-
       div#logoPic {
         display: none;
       }
@@ -79,12 +75,6 @@ a {
     }
 
     @include media-breakpoint-up(sm) {
-      #navContainer {
-        #mainNav {
-          margin-bottom:30px;
-        }
-      }
-
       div#logoPic {
         display: block;
       }
