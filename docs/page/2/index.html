@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.53" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+        <meta name="description" content="The website of Josh Padnick">
+        <meta name="keywords" content="Josh Padnick, Joshua Padnick, Gruntwork, DevOps, Entrepreneurship, Capitalism">
+        <meta name="author" content="Josh Padnick">
+    
+
+    <title>
+        
+            Josh Padnick
+        
+    </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/css/main.min.c732da148c6adeb55d7d799f14e25545c1fae65b4400a63ae599b08ed17aa4cc.css">
+
+</head>
+<body>
+
+    <div id="navContainer">
+    <div class="container">
+        <nav id="mainNav" class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+            <div id="logoPic" class="polaroid tilt-left">
+                <a href="/"><img src="/img/josh-padnick.jpg"></a>
+            </div>
+            <a id="logo" href="/" class="navbar-brand d-flex mr-auto">Josh Padnick</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about/">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact/">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+    <div class="container">
+
+        
+    <div class="layout-home layout-posts">
+        <div class="row">
+
+            <div class="col">
+                
+                <article>
+                    <header>
+                        <h2><a href="/2015/06/a-common-pattern-in-successful-companies/">A Common Pattern in Successful Companies</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2015-06-22 12:00:00.000">June 22, 2015</time>
+                        <span class="categories"></span>
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        </span>
+                        <a href="/categories/entrepreneurship/" class="badge badge-category">entrepreneurship</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                            <p>I’ve been helping software teams accelerate and succeed with DevOps and Amazon Web Services for a few months now (See <a href="http://phoenixdevops.com/">Phoenix DevOps</a>), and one of the more rewarding parts of the job is getting to observe how multiple different companies operate.</p>
+
+<p>I’ve seen high-performing teams in companies that are about to IPO, software teams in Fortune 100 companies, startups of about 10 engineers, and software-based companies of no engineers at all! It’s been incredibly enlightening for me to learn about how people organize themselves to get sh*t done.</p>
+                            <a href="/2015/06/a-common-pattern-in-successful-companies/">Read More...</a>
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2015/06/a-simple-tool-for-snapshotting-your-ec2-instances/">A Simple Tool for Snapshotting Your EC2 Instances</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2015-06-18 12:00:00.000">June 18, 2015</time>
+                        <span class="categories"></span>
+                        <a href="/categories/aws/" class="badge badge-category">aws</a>
+                        </span>
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                            <p><strong>TL;DR</strong></p>
+
+<p>I wrote a simple tool that makes it easy to create an AMI of your EC2 instance, and then to delete all AMI’s older than X days/hours/minutes with a single command. Check it out at <a href="https://github.com/josh-padnick/ec2-snapper">https://github.com/josh-padnick/ec2-snapper</a>.</p>
+
+<p>This works especially well for backing up WordPress blogs hosted on a single instance in AWS.</p>
+
+<p><strong>Full Post</strong></p>
+
+<p>There are many ways to do backups in AWS. One of them is creating an Amazon Machine Image (AMI) of your EC2 Instance so that you have a moment-in-time backup which you can use to launch a new EC2 instance in minutes.</p>
+
+<p>It’s not the world’s most robust backup method. First, in order to guarantee that your file system is consistent at the moment of your snapshot, you have to agree to reboot your instance. Second, if you’re backing up data where even a few minutes of data loss is a big deal, this solution isn’t for you.</p>
+
+<p>But sometimes it’s actually the best solution.</p>
+                            <a href="/2015/06/a-simple-tool-for-snapshotting-your-ec2-instances/">Read More...</a>
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2015/03/a-comprehensive-guide-to-scaling-web-mobile-apps-on-aws-part-1/">A Comprehensive Guide to Scaling Web &amp; Mobile Apps on AWS – Part 1</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2015-03-16 12:00:00.000">March 16, 2015</time>
+                        <span class="categories"></span>
+                        <a href="/categories/aws/" class="badge badge-category">aws</a>
+                        </span>
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                            <p>I published a 12,000+ word guide in January on AirPair.com on building scalable apps on Amazon Web Services. I’ve been a longtime Hacker News reader so it was gratifying to see the article get <a href="https://news.ycombinator.com/item?id=8926316">500+ upvotes on Hacker News</a>!  It also attracted about 30,000 readers in the first 24 hours of publication.</p>
+
+<p>Part 2 of the article is brewing right now, mostly in the form of gaining the real-world experience necessary to write a thorough and helpful guide.</p>
+
+<p><a href="https://www.airpair.com/aws/posts/building-a-scalable-web-app-on-amazon-web-services-p1">Read the Article on AirPair.com</a></p>
+
+<p><strong>Update/December 25, 2016 :</strong> AirPair.com has been down for a few days now, so if you’d like a copy of the article just email me and I’ll send you a PDF.</p>
+
+<p>Regarding Part 2, I have all the knowledge and experience to write it, but I’ve been busy getting our new “DevOps as a Service” company <a href="http://gruntwork.io/">Gruntwork</a> up and running. I’d like to make it a Q1-2017 goal to publish Part 2, and will report back here once I’ve formally committed to that. Thank you for all your interest!</p>
+
+<p><strong>Update/January 6, 2017:</strong> Looks like AirPair is back online, so you can view the article there now!</p>
+
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2015/01/living-on-1-day/">Living on $1 Day</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2015-01-24 12:00:00.000">January 24, 2015</time>
+                        <span class="categories"></span>
+                        <a href="/categories/social%20dynamics/" class="badge badge-category">social dynamics</a>
+                        </span>
+                        <a href="/categories/zen/" class="badge badge-category">zen</a>
+                        </span>
+                        <a href="/categories/general/" class="badge badge-category">general</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                            <p>This past weekend, I volunteered at a clinic in Puerto Peñasco, Mexico (better known to Americans as “Rocky Point”).  The clinic was makeshift, conducted in a church in a local neighborhood.  It was completely free to the residents and funded with donations.</p>
+
+<p>The surrounding residents would be considered low income by American standards, but I sat on many pre-visit interviews with them and most of them don’t think of themselves as struggling.  They’re really just living their lives.</p>
+
+<p>The locals have differences in their lives that I simply haven’t experienced.  In my makeshift Spanish, I learned that one woman, Guadalupe, had been waiting at the free clinic for about 8 hours, not knowing when she would be seen.</p>
+                            <a href="/2015/01/living-on-1-day/">Read More...</a>
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2014/11/what-i-learned-teaching-programming-to-14-year-olds/">What I Learned Teaching Programming to 14-Year Olds</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2014-11-09 12:00:00.000">November 9, 2014</time>
+                        <span class="categories"></span>
+                        <a href="/categories/general/" class="badge badge-category">general</a>
+                        </span>
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                            <p>Yesterday I volunteered at <a href="https://codeday.org/phoenix">CodeDay Phoenix</a> as a mentor.  The goal of the event was to take young kids (mostly middle school and early high school) and give them an opportunity to code something in 24 hours.</p>
+
+<p>As a mentor, my job was to “walk around and help where I could.”</p>
+
+<p>The first group I walked up to was creating a tool to help you come up with something to do for the day.  The idea was that it would take your current location, your preference on whether you wanted to eat, play, build, or socialize for that day, look up some locations in a local database and then make a suggested schedule. It was actually kind of a cool concept!</p>
+                            <a href="/2014/11/what-i-learned-teaching-programming-to-14-year-olds/">Read More...</a>
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2014/10/aws-developer-fundamentals/">AWS Developer Fundamentals</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2014-10-18 12:00:00.000">October 18, 2014</time>
+                        <span class="categories"></span>
+                        <a href="/categories/aws/" class="badge badge-category">aws</a>
+                        </span>
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        </span>
+                        <a href="/categories/presentations/" class="badge badge-category">presentations</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                            <p>My second presentation at <a href="http://oct2014.desertcodecamp.com/home">Desert Code Camp 2014.2</a> was on Amazon Web Services.</p>
+
+<p>It was exciting to see standing room only during the talk! My main concern was keeping it interesting. The natural temptation for this kind of presentation is to do a “documentation summary” but that risks afflicting the audience with severe boredom. So I used a lot of visuals and everyday analogies in explaining AWS.</p>
+
+<p>I spoke both about the big picture, and then went into detail on two of the most popular AWS services, EC2 and S3. I also briefly described VPC, IAM, RDS, DynamoDB, Glacier, and SES. I received numerous positive comments on the talk, so I’m pleased post the slides below.</p>
+
+<iframe
+    style="width: 100%; height: 500px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+    src="http://www.slideshare.net/slideshow/embed_code/40433570?rel=0" allowfullscreen webkitallowfullscreen mozallowfullscreen>
+</iframe>
+<br><br><br>
+
+
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2014/10/introduction-to-emberjs/">Introduction to EmberJS</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2014-10-18 12:00:00.000">October 18, 2014</time>
+                        <span class="categories"></span>
+                        <a href="/categories/presentations/" class="badge badge-category">presentations</a>
+                        </span>
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                            <p>I gave two presentations at <a href="http://oct2014.desertcodecamp.com/home">Desert Code Camp 2014.2</a> earlier today. The first was an intro to EmberJS.</p>
+
+<p>Ember is known for its steep initial learning curve and it was an interesting challenge trying to pack in so many concepts in 60 minutes. I had a great time preparing for, and giving the talk.</p>
+
+<iframe
+    style="width: 100%; height: 500px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+    src="http://www.slideshare.net/slideshow/embed_code/40433564?rel=0" allowfullscreen webkitallowfullscreen mozallowfullscreen>
+</iframe>
+<br><br><br>
+
+
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2014/10/doing-business-in-the-right-order/">Doing Business in The Right Order</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2014-10-04 12:00:00.000">October 4, 2014</time>
+                        <span class="categories"></span>
+                        <a href="/categories/lessons%20learned/" class="badge badge-category">lessons learned</a>
+                        </span>
+                        <a href="/categories/entrepreneurship/" class="badge badge-category">entrepreneurship</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                            <p>Recently I celebrated my 10th year at <a href="http://omedix.com/">Omedix</a>, the company I started when I was 24 years old.  At 34, it is a little hard to imagine I’ve done anything for 10 years!</p>
+
+<p>The milestone has made me reflect on some of the early decisions I made when I first got started.  There were many really good decisions, but there were plenty of bad ones, too.  And of course when you’re in your early 20’s you have that perfect combination of extreme confidence and supreme ignorance.  Sometimes that can be a good thing, and sometimes it can be as bad as it sounds.</p>
+                            <a href="/2014/10/doing-business-in-the-right-order/">Read More...</a>
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2014/09/ally-bank.-i-hardly-knew-ye./">Ally Bank. I Hardly Knew Ye.</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2014-09-10 12:00:00.000">September 10, 2014</time>
+                        <span class="categories"></span>
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        </span>
+                        <a href="/categories/lessons%20learned/" class="badge badge-category">lessons learned</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                            <p>This is my review of my first couple of weeks with Ally Bank, and why I ultimately decided to stay with stodgy, old Chase.</p>
+
+
+
+
+
+
+
+
+
+<figure style="padding: 0.25rem; margin: 2rem 0;">
+    <img style="max-width: 100%; height: auto;" src="/2014/09/ally-bank.-i-hardly-knew-ye./images/ALLY_Bank_withRegistration_hu951708bdb2349ed215365de7a1437f71_7344_400x500_fit_q75_box.jpg" width="300" height="123">
+    <figcaption>
+        <small>
+            
+        </small>
+    </figcaption>
+</figure>
+
+<p>When I was 16 years old, I went with my Mom to a local Bank One branch to open my own personal checking account. Bank One eventually got acquired by Chase, and so I’ve effectively been a Chase customer for more than half my life!</p>
+
+<p>But it’s been a love-hate relationship. On the positive side, it seems that no matter where in the United States I am, I’m always less than 3 miles from a Chase branch, so it’s definitely convenient. I also don’t worry about Chase failing so it seems like a safe place to keep my family’s money. Their iPhone app is actually pretty good, especially the ability to remotely deposit checks.</p>
+
+<p>But on the downside, I often get a “big bank” feel from them, mostly owing to the fact that I don’t really have a personal relationship with anyone there. I find I’m usually just engaging the “Chase Infrastructure” rather than contacting a specific person I know.</p>
+                            <a href="/2014/09/ally-bank.-i-hardly-knew-ye./">Read More...</a>
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2014/08/the-user-interface-of-the-violin/">The User Interface of the Violin</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2014-08-07 12:00:00.000">August 7, 2014</time>
+                        <span class="categories"></span>
+                        <a href="/categories/zen/" class="badge badge-category">zen</a>
+                        </span>
+                        <a href="/categories/general/" class="badge badge-category">general</a>
+                        </span>
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                            <p>Earlier today, I met a friend for breakfast who’s an outstanding professional UX designer.  I was curious about something:</p>
+
+<p>“How do you balance the need to give people a user interface they’re familiar with and can do something with right away, against the opportunity to innovate and do new things that may take more time to learn?”</p>
+
+<p>He gave a beautiful analogy in response.</p>
+
+
+
+
+
+
+
+
+
+<figure style="padding: 0.25rem; margin: 2rem 0;">
+    <img style="max-width: 100%; height: auto;" src="/2014/08/the-user-interface-of-the-violin/images/violin_huef36ef11d307593dba04b8098187a409_253804_400x500_fit_box_2.png" width="367" height="500">
+    <figcaption>
+        <small>
+            
+        </small>
+    </figcaption>
+</figure>
+
+<p>“Consider the violin.  It has one of the most difficult user interfaces in the world to use.  But if you’re willing to put in the thousands of hours of practice, you can make such beautiful music with it.  There has to be that trade off.  If we demand of our users a steep learning curve, they had better be able to produce some beautiful music.”</p>
+
+<p>I like that idea because I’ve met many designers who get so mesmerized by the idea of doing something new and amazing that they lose sight of the fact that “the tradeoff” has to make sense.</p>
+
+                        
+                    </section>
+                </article>
+                
+
+                <div class="d-flex justify-content-center">
+                    
+
+<ul class="pagination">
+
+    <li class="page-item">
+        <a href="/" class="page-link page-link-newer-posts" aria-label="Previous"><span aria-hidden="true"></span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="page-item"><a class="page-link" href="/">1</a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="page-item active"><a class="page-link" href="/page/2/">2</a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/3/">3</a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="page-item disabled"><span aria-hidden="true">&nbsp;&hellip;&nbsp;</span></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/5/">5</a></li>
+    
+    
+    <li class="page-item">
+        <a href="/page/3/" class="page-link page-link-older-posts" aria-label="Next"><span aria-hidden="true"></span></a>
+    </li>
+
+</ul>
+
+                </div>
+            </div>
+
+            <div class="col-sm-3 categories">
+                <h5>What I Write About</h5>
+                <ul>
+                    
+                    <li><a href="/categories/aws">aws (7)</a></li>
+                    
+                    <li><a href="/categories/capitalism">capitalism (3)</a></li>
+                    
+                    <li><a href="/categories/entrepreneurship">entrepreneurship (15)</a></li>
+                    
+                    <li><a href="/categories/general">general (22)</a></li>
+                    
+                    <li><a href="/categories/lessons-learned">lessons-learned (5)</a></li>
+                    
+                    <li><a href="/categories/life">life (1)</a></li>
+                    
+                    <li><a href="/categories/presentations">presentations (6)</a></li>
+                    
+                    <li><a href="/categories/social-dynamics">social-dynamics (3)</a></li>
+                    
+                    <li><a href="/categories/software">software (16)</a></li>
+                    
+                    <li><a href="/categories/travel">travel (2)</a></li>
+                    
+                    <li><a href="/categories/zen">zen (13)</a></li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+
+    <footer class="footer-copyright text-center">
+    Copyright &copy; 2006 - 2019 Josh Padnick. All rights reserved.<br>
+    Thanks for reading!
+</footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>

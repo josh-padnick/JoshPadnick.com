@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations on Josh Padnick</title>
+    <link>https://JoshPadnick.com/categories/presentations/</link>
+    <description>Recent content in Presentations on Josh Padnick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Nov 2015 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://JoshPadnick.com/categories/presentations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Play Framework &#43; Docker &#43; CircleCI &#43; AWS &#43; EC2 Container Service</title>
+      <link>https://JoshPadnick.com/2015/11/play-framework-docker-circleci-aws-ec2-container-service/</link>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2015/11/play-framework-docker-circleci-aws-ec2-container-service/</guid>
+      <description>I was invited to speak earlier tonight at the Phoenix Java User’s Group on Play Framework, DevOps, and AWS.
+I decided to do a basic walkthrough of Play Framework, and to build a continuous deployment pipeline live as part of the presentation. I wanted to actually implement something so that (a) I would be forced to pick specific technologies I could talk about, and (b) I could talk about the real-world challenges of implementing something.
+I created 4 public GitHub repos to implement this:
+ https://github.com/PhoenixDevOps/phxjug-ctr-base https://github.com/PhoenixDevOps/phxjug-ctr-base-play https://github.com/PhoenixDevOps/phxjug-play-framework-demo https://github.com/PhoenixDevOps/phxjug-ecs-cluster  Check out slide 36 for some directions on how to use all these items together, although I recognize the overall documentation may not be suitable for beginners since the presentation itself filled in the gaps in the slides. Enjoy!
+ </description>
+    </item>
+    
+    <item>
+      <title>My Talk on Choosing the Right Framework for Running Docker Containers in Production</title>
+      <link>https://JoshPadnick.com/2015/09/my-talk-on-choosing-the-right-framework-for-running-docker-containers-in-production/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2015/09/my-talk-on-choosing-the-right-framework-for-running-docker-containers-in-production/</guid>
+      <description>I spoke today at Iterate.PHX, a DevOps conference put on right here in Phoenix, AZ.
+My topic was on choosing the right framework for running docker containers in production. I specifically focus on the “multi-container VM” paradigm since if you’re OK to just run a single container per VM, then you don’t really need a framework at all. In that case, Docker is really just your deployment artifact.
+The slides are below, and if there’s a video of the talk I’ll add that here as well. Enjoy!
+ </description>
+    </item>
+    
+    <item>
+      <title>AWS Developer Fundamentals</title>
+      <link>https://JoshPadnick.com/2014/10/aws-developer-fundamentals/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2014/10/aws-developer-fundamentals/</guid>
+      <description>My second presentation at Desert Code Camp 2014.2 was on Amazon Web Services.
+It was exciting to see standing room only during the talk! My main concern was keeping it interesting. The natural temptation for this kind of presentation is to do a “documentation summary” but that risks afflicting the audience with severe boredom. So I used a lot of visuals and everyday analogies in explaining AWS.
+I spoke both about the big picture, and then went into detail on two of the most popular AWS services, EC2 and S3. I also briefly described VPC, IAM, RDS, DynamoDB, Glacier, and SES. I received numerous positive comments on the talk, so I’m pleased post the slides below.
+ </description>
+    </item>
+    
+    <item>
+      <title>Introduction to EmberJS</title>
+      <link>https://JoshPadnick.com/2014/10/introduction-to-emberjs/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2014/10/introduction-to-emberjs/</guid>
+      <description>I gave two presentations at Desert Code Camp 2014.2 earlier today. The first was an intro to EmberJS.
+Ember is known for its steep initial learning curve and it was an interesting challenge trying to pack in so many concepts in 60 minutes. I had a great time preparing for, and giving the talk.
+ </description>
+    </item>
+    
+    <item>
+      <title>My Desert Code Camp Presentation on Server Configuration Management with Chef</title>
+      <link>https://JoshPadnick.com/2014/04/my-desert-code-camp-presentation-on-server-configuration-management-with-chef/</link>
+      <pubDate>Sat, 05 Apr 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2014/04/my-desert-code-camp-presentation-on-server-configuration-management-with-chef/</guid>
+      <description>I gave this talk at Desert Code Camp earlier today as part of the DevOps track. It gives an introduction to Chef with a special emphasis on getting you to Hello World and beyond.
+They say Chef has a steep learning curve, but I think that’s only because there are a lot of concepts you need to know before you can do the most basic things. I tried to cover most of those concepts here. I also included some best practices I discovered such as how to handle secrets like passwords and certificates using Chef.  </description>
+    </item>
+    
+    <item>
+      <title>Basic Introduction to Play Framework</title>
+      <link>https://JoshPadnick.com/2013/11/basic-introduction-to-play-framework/</link>
+      <pubDate>Thu, 14 Nov 2013 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2013/11/basic-introduction-to-play-framework/</guid>
+      <description>I recently gave a talk at Desert Code Camp 2013.2 on an introduction to Play Framework. I’m just getting started with it, but there are several concepts that got me interested:
+ Non-blocking / Evented vs. Threaded Command-line interface to compile, test, and more Clearly inspired by the productivity Ruby on Rails, but written for Java Written using a Functional Programming paradigm Super-easy for creating RESTful web services The devil’s always in the details, of course, but it’s been a blast so far! More to come on Play…    </description>
+    </item>
+    
+  </channel>
+</rss>

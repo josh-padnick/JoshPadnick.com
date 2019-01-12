@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws on Josh Padnick</title>
+    <link>https://JoshPadnick.com/categories/aws/</link>
+    <description>Recent content in Aws on Josh Padnick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Sep 2016 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://JoshPadnick.com/categories/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Talk on New AWS Services</title>
+      <link>https://JoshPadnick.com/2016/09/my-talk-on-new-aws-services/</link>
+      <pubDate>Tue, 06 Sep 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2016/09/my-talk-on-new-aws-services/</guid>
+      <description>I recently gave a talk to the AWS Phoenix Meetup on three new services and updates from AWS: the Application Load Balancer (ALB), EC2 Container Service (ECS), and Kinesis Analytics.
+More than half the software teams I meet today run Docker in production, so there was high interest in how you can use the ALB with an ECS cluster to have a more streamlined docker cluster setup.
+Some important details I since learned that are worth mentioning:
+ The ALB’s costs scale with use. For example, if you have 1,000,000 idle web socket connections, you’ll pay $2,000/month! But presumably if you have 1,000,000 active users that kind of cost is ok. Thanks to nivertech on Hacker News for pointing this out. The ALB currently has a bug that impacts its ability to do zero-downtime deployments. Special credit to my colleague Yevgeniy Brikman for discovering and reporting this!  Check out the presentation on the Gruntwork Blog!</description>
+    </item>
+    
+    <item>
+      <title>My Thoughts from DockerCon 2016</title>
+      <link>https://JoshPadnick.com/2016/06/my-thoughts-from-dockercon-2016/</link>
+      <pubDate>Tue, 21 Jun 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2016/06/my-thoughts-from-dockercon-2016/</guid>
+      <description>&lt;p&gt;I just finished attending &lt;a href=&#34;http://2016.dockercon.com/&#34;&gt;DockerCon 2016&lt;/a&gt;, and overall it was a pretty useful conference! I like to summarize what I learned both for my own mental clarity, and so others can benefit. So here we go.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How Many Different Ways Can You Deploy a Production Container Cluster?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I love Docker as a format for deploying things, but oh my gosh, how many different options are there for deploying it?&lt;/p&gt;
+
+&lt;p&gt;If you’re looking for “Heroku for Containers”, Docker has a pretty nice offering called Docker Cloud that seems really good. But once you’re ready to manage your own infrastructure, well, there was a long list to consider.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Introducing Gruntwork</title>
+      <link>https://JoshPadnick.com/2016/05/introducing-gruntwork/</link>
+      <pubDate>Mon, 02 May 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2016/05/introducing-gruntwork/</guid>
+      <description>In November 2014, I started helping software teams ramp up on Amazon Web Services and DevOps. This was gratifying work because a few years prior, I was involved in a project that did a terrible job of DevOps and suffered greatly for it. Now I was helping other teams avoid that same fate.
+And what an adventure it turned out to be! I got the chance to work with Intel, Infusionsoft, 3-person startups, a well-funded Spotify competitor and so many other interesting companies doing interesting things. I called the consulting practice Phoenix DevOps because, well, I live in Phoenix, Arizona, and it turns out the concept of immutability (sometimes known as “Phoenix Servers”) is a central tenet of DevOps.
+Along the way, I wrote A Comprehensive Guide to Building Scalable Web Apps on AWS, Part 1, and gave lots of DevOps presentations at various meetups and conferences.
+During that time I also discovered the outstanding Blog of Yevgeniy Brikman (“Jim”). Jim mentioned one day he was looking for DevOps people and I loved his work, so I messaged him: “Hey, I do DevOps for lots of teams and have no time right now but let’s talk!”
+It turned out Jim was doing consulting very similar to what I was doing through his own consulting practice, Atomic Squirrel. And after many conversations and trial projects, we decided we really liked working with each other.
+As we compared all our experiences, we realized we’d basically been doing the same thing for every client. Setup a best-practices VPC, automate deployment, setup monitoring/metrics, get ramped up on AWS, etc.
+Doing consulting on an hourly basis was one paradigm for helping clients solve these problems, but what if we could solve the problems really well one time and then consult with clients merely to help them adopt what was already built? That would mean we could significantly lower the cost and time needed to get your DevOps on.
+Well, that’s what we’ve decided to do! And so today, it is my pleasure to announce that I am officially winding down Phoenix DevOps and joining with Yevgeniy Brikman in a new company we call Gruntwork.
+Why call it Gruntwork? Because that’s what this work is for almost every software team. Whatever app you want to build, the infrastructure stands between your vision and your app; almost no one gets excited about automating their infrastructure. Not to mention that it’s hard to find DevOps engineers, they’re often expensive, and they hold all the keys to your kingdom. And when they leave, then what?
+So Gruntwork is here to do your grunt work for you, and because of the way we’ve set things up, and the thousands of hours of collective experience we have, we can help you achieve a result that’s more effective and less expensive than the most amazing DevOps person you could hire.
+One other aspect of Gruntwork that’s important to Jim and me is that Gruntwork has to be able to completely disappear and you should still be ok to run your infrastructure. Would I base my important project’s entire infrastructure on a new company that was just started by a couple of guys? Only if I had complete control of the source code and could run it without them.
+So, unlike most businesses which strive to build lock-in to your product, we are actively striving to build “not lock-in”. It’s actually kind of hard to do sometimes, but it means that customers can choose to come back to us not because the cost of switching is so painful but because we continue to actively provide them value.
+There’s more to share in the Gruntwork story, but I think that’s enough for now and we’ll announce more when we’re ready. In the meantime, I am thrilled to be working with Jim, who’s been a fantastic business partner so far, and I am thrilled to embark on this new adventure!
+Thanks for reading. Now time to get some Gruntwork done…</description>
+    </item>
+    
+    <item>
+      <title>Play Framework &#43; Docker &#43; CircleCI &#43; AWS &#43; EC2 Container Service</title>
+      <link>https://JoshPadnick.com/2015/11/play-framework-docker-circleci-aws-ec2-container-service/</link>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2015/11/play-framework-docker-circleci-aws-ec2-container-service/</guid>
+      <description>I was invited to speak earlier tonight at the Phoenix Java User’s Group on Play Framework, DevOps, and AWS.
+I decided to do a basic walkthrough of Play Framework, and to build a continuous deployment pipeline live as part of the presentation. I wanted to actually implement something so that (a) I would be forced to pick specific technologies I could talk about, and (b) I could talk about the real-world challenges of implementing something.
+I created 4 public GitHub repos to implement this:
+ https://github.com/PhoenixDevOps/phxjug-ctr-base https://github.com/PhoenixDevOps/phxjug-ctr-base-play https://github.com/PhoenixDevOps/phxjug-play-framework-demo https://github.com/PhoenixDevOps/phxjug-ecs-cluster  Check out slide 36 for some directions on how to use all these items together, although I recognize the overall documentation may not be suitable for beginners since the presentation itself filled in the gaps in the slides. Enjoy!
+ </description>
+    </item>
+    
+    <item>
+      <title>A Simple Tool for Snapshotting Your EC2 Instances</title>
+      <link>https://JoshPadnick.com/2015/06/a-simple-tool-for-snapshotting-your-ec2-instances/</link>
+      <pubDate>Thu, 18 Jun 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2015/06/a-simple-tool-for-snapshotting-your-ec2-instances/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I wrote a simple tool that makes it easy to create an AMI of your EC2 instance, and then to delete all AMI’s older than X days/hours/minutes with a single command. Check it out at &lt;a href=&#34;https://github.com/josh-padnick/ec2-snapper&#34;&gt;https://github.com/josh-padnick/ec2-snapper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This works especially well for backing up WordPress blogs hosted on a single instance in AWS.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Full Post&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are many ways to do backups in AWS. One of them is creating an Amazon Machine Image (AMI) of your EC2 Instance so that you have a moment-in-time backup which you can use to launch a new EC2 instance in minutes.&lt;/p&gt;
+
+&lt;p&gt;It’s not the world’s most robust backup method. First, in order to guarantee that your file system is consistent at the moment of your snapshot, you have to agree to reboot your instance. Second, if you’re backing up data where even a few minutes of data loss is a big deal, this solution isn’t for you.&lt;/p&gt;
+
+&lt;p&gt;But sometimes it’s actually the best solution.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Comprehensive Guide to Scaling Web &amp; Mobile Apps on AWS – Part 1</title>
+      <link>https://JoshPadnick.com/2015/03/a-comprehensive-guide-to-scaling-web-mobile-apps-on-aws-part-1/</link>
+      <pubDate>Mon, 16 Mar 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2015/03/a-comprehensive-guide-to-scaling-web-mobile-apps-on-aws-part-1/</guid>
+      <description>I published a 12,000+ word guide in January on AirPair.com on building scalable apps on Amazon Web Services. I’ve been a longtime Hacker News reader so it was gratifying to see the article get 500+ upvotes on Hacker News! It also attracted about 30,000 readers in the first 24 hours of publication.
+Part 2 of the article is brewing right now, mostly in the form of gaining the real-world experience necessary to write a thorough and helpful guide.
+Read the Article on AirPair.com
+Update/December 25, 2016 : AirPair.com has been down for a few days now, so if you’d like a copy of the article just email me and I’ll send you a PDF.
+Regarding Part 2, I have all the knowledge and experience to write it, but I’ve been busy getting our new “DevOps as a Service” company Gruntwork up and running. I’d like to make it a Q1-2017 goal to publish Part 2, and will report back here once I’ve formally committed to that. Thank you for all your interest!
+Update/January 6, 2017: Looks like AirPair is back online, so you can view the article there now!</description>
+    </item>
+    
+    <item>
+      <title>AWS Developer Fundamentals</title>
+      <link>https://JoshPadnick.com/2014/10/aws-developer-fundamentals/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/2014/10/aws-developer-fundamentals/</guid>
+      <description>My second presentation at Desert Code Camp 2014.2 was on Amazon Web Services.
+It was exciting to see standing room only during the talk! My main concern was keeping it interesting. The natural temptation for this kind of presentation is to do a “documentation summary” but that risks afflicting the audience with severe boredom. So I used a lot of visuals and everyday analogies in explaining AWS.
+I spoke both about the big picture, and then went into detail on two of the most popular AWS services, EC2 and S3. I also briefly described VPC, IAM, RDS, DynamoDB, Glacier, and SES. I received numerous positive comments on the talk, so I’m pleased post the slides below.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

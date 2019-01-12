@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Josh Padnick</title>
+    <link>https://JoshPadnick.com/categories/</link>
+    <description>Recent content in Categories on Josh Padnick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Sep 2016 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://JoshPadnick.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aws</title>
+      <link>https://JoshPadnick.com/categories/aws/</link>
+      <pubDate>Tue, 06 Sep 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capitalism</title>
+      <link>https://JoshPadnick.com/categories/capitalism/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/capitalism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entrepreneurship</title>
+      <link>https://JoshPadnick.com/categories/entrepreneurship/</link>
+      <pubDate>Mon, 02 May 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/entrepreneurship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>https://JoshPadnick.com/categories/general/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lessons Learned</title>
+      <link>https://JoshPadnick.com/categories/lessons-learned/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/lessons-learned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://JoshPadnick.com/categories/life/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentations</title>
+      <link>https://JoshPadnick.com/categories/presentations/</link>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/presentations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Dynamics</title>
+      <link>https://JoshPadnick.com/categories/social-dynamics/</link>
+      <pubDate>Fri, 25 Nov 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/social-dynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://JoshPadnick.com/categories/software/</link>
+      <pubDate>Tue, 06 Sep 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://JoshPadnick.com/categories/travel/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zen</title>
+      <link>https://JoshPadnick.com/categories/zen/</link>
+      <pubDate>Sat, 24 Jan 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://JoshPadnick.com/categories/zen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

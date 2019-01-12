@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+        <meta name="description" content="The website of Josh Padnick">
+        <meta name="keywords" content="Josh Padnick, Joshua Padnick, Gruntwork, DevOps, Entrepreneurship, Capitalism">
+        <meta name="author" content="Josh Padnick">
+    
+
+    <title>
+        
+            Josh Padnick
+        
+    </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/css/main.min.c732da148c6adeb55d7d799f14e25545c1fae65b4400a63ae599b08ed17aa4cc.css">
+
+</head>
+<body>
+
+    <div id="navContainer">
+    <div class="container">
+        <nav id="mainNav" class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+            <div id="logoPic" class="polaroid tilt-left">
+                <a href="/"><img src="/img/josh-padnick.jpg"></a>
+            </div>
+            <a id="logo" href="/" class="navbar-brand d-flex mr-auto">Josh Padnick</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar">
+                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about/">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact/">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+    <div class="container">
+
+        
+    <div class="layout-categories layout-posts">
+        <div class="row">
+
+            <div class="col">
+                <header class="intro">
+                    <h1>Presentations</h1>
+                    <div class="numPostsAvailable">
+                        
+                        
+                        <p>6 posts available</p>
+                        
+                    </div>
+                </header>
+
+                <hr>
+
+                
+                <article>
+                    <header>
+                        <h2><a href="/2015/11/play-framework-docker-circleci-aws-ec2-container-service/">Play Framework &#43; Docker &#43; CircleCI &#43; AWS &#43; EC2 Container Service</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2015-11-11 12:00:00.000">November 11, 2015</time>
+                        
+                        <a href="/categories/aws/" class="badge badge-category">aws</a>
+                        
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                        <a href="/categories/presentations/" class="badge badge-category">presentations</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                        <p>I was invited to speak earlier tonight at <a href="http://www.phxjug.org/">the Phoenix Java User’s Group</a> on Play Framework, DevOps, and AWS.</p>
+
+<p>I decided to do a basic walkthrough of Play Framework, and to build a continuous deployment pipeline live as part of the presentation. I wanted to actually implement something so that (a) I would be forced to pick specific technologies I could talk about, and (b) I could talk about the real-world challenges of implementing something.</p>
+
+<p>I created 4 public GitHub repos to implement this:</p>
+
+<ul>
+<li><a href="https://github.com/PhoenixDevOps/phxjug-ctr-base">https://github.com/PhoenixDevOps/phxjug-ctr-base</a></li>
+<li><a href="https://github.com/PhoenixDevOps/phxjug-ctr-base-play">https://github.com/PhoenixDevOps/phxjug-ctr-base-play</a></li>
+<li><a href="https://github.com/PhoenixDevOps/phxjug-play-framework-demo">https://github.com/PhoenixDevOps/phxjug-play-framework-demo</a></li>
+<li><a href="https://github.com/PhoenixDevOps/phxjug-ecs-cluster">https://github.com/PhoenixDevOps/phxjug-ecs-cluster</a></li>
+</ul>
+
+<p>Check out slide 36 for some directions on how to use all these items together, although I recognize the overall documentation may not be suitable for beginners since the presentation itself filled in the gaps in the slides. Enjoy!</p>
+
+<iframe
+    style="width: 100%; height: 500px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+    src="http://www.slideshare.net/slideshow/embed_code/55026763?rel=0" allowfullscreen webkitallowfullscreen mozallowfullscreen>
+</iframe>
+<br><br><br>
+
+
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2015/09/my-talk-on-choosing-the-right-framework-for-running-docker-containers-in-production/">My Talk on Choosing the Right Framework for Running Docker Containers in Production</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2015-09-01 12:00:00.000">September 1, 2015</time>
+                        
+                        <a href="/categories/general/" class="badge badge-category">general</a>
+                        
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                        <a href="/categories/presentations/" class="badge badge-category">presentations</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                        <p>I spoke today at <a href="http://www.iteratephx.co/">Iterate.PHX</a>, a DevOps conference put on right here in Phoenix, AZ.</p>
+
+<p>My topic was on choosing the right framework for running docker containers in production. I specifically focus on the “multi-container VM” paradigm since if you’re OK to just run a single container per VM, then you don’t really need a framework at all. In that case, Docker is really just your deployment artifact.</p>
+
+<p>The slides are below, and if there’s a video of the talk I’ll add that here as well. Enjoy!</p>
+
+<iframe
+    style="width: 100%; height: 500px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+    src="http://www.slideshare.net/slideshow/embed_code/52304367?rel=0" allowfullscreen webkitallowfullscreen mozallowfullscreen>
+</iframe>
+<br><br><br>
+
+
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2014/10/aws-developer-fundamentals/">AWS Developer Fundamentals</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2014-10-18 12:00:00.000">October 18, 2014</time>
+                        
+                        <a href="/categories/aws/" class="badge badge-category">aws</a>
+                        
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                        <a href="/categories/presentations/" class="badge badge-category">presentations</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                        <p>My second presentation at <a href="http://oct2014.desertcodecamp.com/home">Desert Code Camp 2014.2</a> was on Amazon Web Services.</p>
+
+<p>It was exciting to see standing room only during the talk! My main concern was keeping it interesting. The natural temptation for this kind of presentation is to do a “documentation summary” but that risks afflicting the audience with severe boredom. So I used a lot of visuals and everyday analogies in explaining AWS.</p>
+
+<p>I spoke both about the big picture, and then went into detail on two of the most popular AWS services, EC2 and S3. I also briefly described VPC, IAM, RDS, DynamoDB, Glacier, and SES. I received numerous positive comments on the talk, so I’m pleased post the slides below.</p>
+
+<iframe
+    style="width: 100%; height: 500px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+    src="http://www.slideshare.net/slideshow/embed_code/40433570?rel=0" allowfullscreen webkitallowfullscreen mozallowfullscreen>
+</iframe>
+<br><br><br>
+
+
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2014/10/introduction-to-emberjs/">Introduction to EmberJS</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2014-10-18 12:00:00.000">October 18, 2014</time>
+                        
+                        <a href="/categories/presentations/" class="badge badge-category">presentations</a>
+                        
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                        <p>I gave two presentations at <a href="http://oct2014.desertcodecamp.com/home">Desert Code Camp 2014.2</a> earlier today. The first was an intro to EmberJS.</p>
+
+<p>Ember is known for its steep initial learning curve and it was an interesting challenge trying to pack in so many concepts in 60 minutes. I had a great time preparing for, and giving the talk.</p>
+
+<iframe
+    style="width: 100%; height: 500px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+    src="http://www.slideshare.net/slideshow/embed_code/40433564?rel=0" allowfullscreen webkitallowfullscreen mozallowfullscreen>
+</iframe>
+<br><br><br>
+
+
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2014/04/my-desert-code-camp-presentation-on-server-configuration-management-with-chef/">My Desert Code Camp Presentation on Server Configuration Management with Chef</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2014-04-05 12:00:00.000">April 5, 2014</time>
+                        
+                        <a href="/categories/presentations/" class="badge badge-category">presentations</a>
+                        
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                        <p>I gave this talk at Desert Code Camp earlier today as part of the DevOps track. It gives an introduction to Chef with a special emphasis on getting you to Hello World and beyond.</p>
+
+<p>They say Chef has a steep learning curve, but I think that’s only because there are a lot of concepts you need to know before you can do the most basic things. I tried to cover most of those concepts here. I also included some best practices I discovered such as how to handle secrets like passwords and certificates using Chef.
+<iframe
+    style="width: 100%; height: 500px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+    src="http://www.slideshare.net/slideshow/embed_code/33170504?rel=0" allowfullscreen webkitallowfullscreen mozallowfullscreen>
+</iframe>
+<br><br><br>
+</p>
+
+                        
+                    </section>
+                </article>
+                
+                <article>
+                    <header>
+                        <h2><a href="/2013/11/basic-introduction-to-play-framework/">Basic Introduction to Play Framework</a></h2>
+                    </header>
+                    <section class="meta">
+                        <time datetime="2013-11-14 12:00:00.000">November 14, 2013</time>
+                        
+                        <a href="/categories/presentations/" class="badge badge-category">presentations</a>
+                        
+                        <a href="/categories/software/" class="badge badge-category">software</a>
+                        
+                    </section>
+                    <section class="summary">
+                        
+                        <p>I recently gave a talk at Desert Code Camp 2013.2 on an introduction to <a href="http://playframework.com/">Play Framework</a>. I’m just getting started with it, but there are several concepts that got me interested:</p>
+
+<ul>
+<li>Non-blocking / Evented vs. Threaded</li>
+<li>Command-line interface to compile, test, and more</li>
+<li>Clearly inspired by the productivity Ruby on Rails, but written for Java</li>
+<li>Written using a Functional Programming paradigm</li>
+<li>Super-easy for creating RESTful web services
+The devil’s always in the details, of course, but it’s been a blast so far! More to come on Play…
+<iframe
+    style="width: 100%; height: 500px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+    src="http://www.slideshare.net/slideshow/embed_code/34267737?rel=0" allowfullscreen webkitallowfullscreen mozallowfullscreen>
+</iframe>
+<br><br><br>
+</li>
+</ul>
+
+                        
+                    </section>
+                </article>
+                
+
+                <div class="d-flex justify-content-center">
+                    
+
+                </div>
+            </div>
+
+            <div class="col-sm-3"></div>
+
+        </div>
+    </div>
+
+
+    </div>
+
+    <footer class="footer-copyright text-center">
+    Copyright &copy; 2006 - 2019 Josh Padnick. All rights reserved.<br>
+    Thanks for reading!
+</footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>
