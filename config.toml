@@ -2,9 +2,14 @@ baseURL = "https://JoshPadnick.com/"
 languageCode = "en-us"
 title = "Josh Padnick"
 
-paginate = 3
+# Show 10 posts per page
+paginate = 10
 
+# If a post doesn't have a <!--more--> entry, just display the whole thing.
 summaryLength = 5000
+
+# Because we're hosting the site on GitHub Pages, we need to output all generated files to the /docs directory
+publishDir = "docs"
 
 [permalinks]
   post = "/:year/:month/:title/"
