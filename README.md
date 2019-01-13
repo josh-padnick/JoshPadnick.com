@@ -43,4 +43,10 @@ hugo server --renderToDisk -D
 
 ## Deploying the Site
 
-TODO
+Deployment works by generating the static website files, and `git push`ing them to https://github.com/josh-padnick/josh-padnick.github.io. That repo is configured with [GitHub Pages](https://pages.github.com/), so as soon as files are pushed to that repo, they're immediately available for viewing over the web!
+
+To deploy, you'll need write access to https://pages.github.com/. Then run the deploy script:
+
+```bash
+./deploy.sh
+```
