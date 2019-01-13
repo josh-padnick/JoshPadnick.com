@@ -12,7 +12,7 @@ categories:
 
 I’ve never really thought of myself as a salesperson.
 
-I remember when I was younger I interned for GE and they had some career fair at the end of the summer where you met people in all the different ‘early talent identification’ programs. When I got to the sales people, they all just seemed so smooth. I didn’t trust them, and I certainly didn’t want to buy anything from them. I just couldn’t picture myself joining that table over some of the others.
+I remember when I was younger I interned for GE and they had some career fair at the end of the summer where you met people in all the different "early talent identification" programs. When I got to the sales people, they all just seemed so smooth. I didn’t trust them, and I certainly didn’t want to buy anything from them. I just couldn’t picture myself joining that table over some of the others.
 
 Well, fast forward a few years after I started [Omedix](http://omedix.com) and reality struck – I had inadvertently positioned myself as the sole salesperson for our company. Either I sold our product or we didn’t do business; it was that simple. And so I had to start learning how to sell.
 

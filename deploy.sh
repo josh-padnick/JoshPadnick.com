@@ -51,7 +51,7 @@ function publish_files {
 
     cd "$generated_files_repo_path"
     git add -A
-    git commit -m "Deploy generated files from $last_hugo_git_commit."
+    git commit -m "Deploy generated files from https://github.com/josh-padnick/JoshPadnick.com/commit/$last_hugo_git_commit"
     git push
 }
 
