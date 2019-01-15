@@ -8,5 +8,7 @@ paginate = 10
 # If a post doesn't have a <!--more--> entry, just display the whole thing.
 summaryLength = 5000
 
+googleAnalytics = "UA-1640976-3"
+
 [permalinks]
   post = "/:year/:month/:title/"
