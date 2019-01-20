@@ -1,5 +1,6 @@
 ---
 title: "Thoughts from Ireland"
+slug: "thoughts-from-dublin-ireland"
 date: 2016-10-29T00:00:00-07:00
 draft: false
 categories:
