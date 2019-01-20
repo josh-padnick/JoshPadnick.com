@@ -9,24 +9,11 @@ a {
   position: relative;
 
   border-bottom: 1px solid gainsboro;
-  height:77px;
-  margin-bottom:25px;
+  margin-bottom: 35px;
   background-color: #fff4e0;
 
   #mainNav {
     padding: 0;
-
-    @include media-breakpoint-up(xs) {
-      margin-bottom: 25px;
-    }
-
-    @include media-breakpoint-up(md) {
-      margin-bottom: 35px;
-    }
-
-    @include media-breakpoint-up(lg) {
-      margin-bottom: 40px;
-    }
 
     a#logo {
       margin-left: 95px;
