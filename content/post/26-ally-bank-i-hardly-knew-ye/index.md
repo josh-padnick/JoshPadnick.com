@@ -1,6 +1,6 @@
 ---
 title: "Ally Bank. I Hardly Knew Ye."
-slug: "ally-bank-hardly-knew-ye"
+slug: "ally-bank-i-hardly-knew-ye"
 date: 2014-09-10T00:00:00-07:00
 draft: false
 aliases:
