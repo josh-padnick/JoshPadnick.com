@@ -10,7 +10,6 @@
 {{ define "main" }}
 <div class="layout-posts">
     <div class="row">
-        <!-- Surround the middle column by "col-lg-2" as a hacky way to limit the width of the context on larger viewports -->
         <div class="col">
             <article>
                 <header>
@@ -22,11 +21,16 @@
                     <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
                     {{ end }}
                 </section>
-                <hr>
                 <section class="content">
                     {{ .Content }}
                 </section>
             </article>
+
+            <section class="comments">
+                <hr>
+                <h4>Comments</h4>
+                {{ template "_internal/disqus.html" . }}
+            </section>
         </div>
         <div class="col-lg-3"></div>
     </div>

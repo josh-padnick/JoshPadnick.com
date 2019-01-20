@@ -10,5 +10,7 @@ summaryLength = 5000
 
 googleAnalytics = "UA-1640976-3"
 
+disqusShortname = "joshpadnick"
+
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:year/:month/:day/:title/"
