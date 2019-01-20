@@ -1,8 +1,4 @@
 // Body
-body {
-  margin-bottom: 40px;
-}
-
 a {
   text-decoration: underline;
 }
@@ -12,8 +8,12 @@ a {
   max-width: none;
   position: relative;
 
+  border-bottom: 1px solid gainsboro;
+  height:77px;
+  margin-bottom:25px;
+  background-color: #fff4e0;
+
   #mainNav {
-    border-bottom: 1px solid gainsboro;
     padding: 0;
 
     @include media-breakpoint-up(xs) {
@@ -144,12 +144,15 @@ a {
 
 // Footer
 footer {
+  border-top: 1px solid gainsboro;
   color: #bbb;
   font-size: 0.8rem;
-  padding-bottom: 15px;
+  //padding-bottom: 15px;
   position: relative;
   bottom: 0;
   margin-top:25px;
+  margin-bottom:15px;
+  padding-top: 10px;
 }
 
 // Utilities

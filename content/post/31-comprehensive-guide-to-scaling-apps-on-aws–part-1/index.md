@@ -1,5 +1,6 @@
 ---
 title: "A Comprehensive Guide to Scaling Web & Mobile Apps on AWS – Part 1"
+slug: "a-comprehensive-guide-to-scaling-web-mobile-apps-on-aws-part-1"
 date: 2015-03-16T00:00:00-07:00
 draft: false
 aliases:
