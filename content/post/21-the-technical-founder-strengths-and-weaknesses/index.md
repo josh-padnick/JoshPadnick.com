@@ -2,6 +2,9 @@
 title: "The Technical Founder Strengths and Weaknesses"
 date: 2011-04-05T00:00:00-07:00
 draft: false
+aliases:
+- "/2011/04/05/the-technical-founder-strengths-and-weaknesses/index.html"
+- "/2011/04/05/the-technical-founder-strengths-and-weaknesses/"
 categories:
 - entrepreneurship
 - general

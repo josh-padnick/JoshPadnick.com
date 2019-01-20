@@ -2,6 +2,9 @@
 title: "Ally Bank. I Hardly Knew Ye."
 date: 2014-09-10T00:00:00-07:00
 draft: false
+aliases:
+- "/2014/09/10/ally-bank-i-hardly-knew-ye/index.html"
+- "/2014/09/10/ally-bank-i-hardly-knew-ye/"
 categories:
 - software
 - lessons learned

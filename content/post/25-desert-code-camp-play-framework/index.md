@@ -2,6 +2,9 @@
 title: "Basic Introduction to Play Framework"
 date: 2013-11-14T00:00:00-07:00
 draft: false
+aliases:
+ - "2015/11/11/play-framework-docker-circleci-aws-ec2-container-service/index.html"
+ - "2015/11/11/play-framework-docker-circleci-aws-ec2-container-service/"
 categories:
 - presentations
 - software
