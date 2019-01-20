@@ -13,4 +13,4 @@ googleAnalytics = "UA-1640976-3"
 disqusShortname = "joshpadnick"
 
 [permalinks]
-  post = "/:year/:month/:day/:title/"
+  post = "/:year/:month/:day/:slug/"
