@@ -3,7 +3,9 @@
 {{ end }}
 
 {{ define "meta" }}
-    <meta name="keywords" content="{{ delimit .Params.categories ", " }}">
+    {{ if ne .Params.categories nil }}
+        <meta name="keywords" content="{{ delimit .Params.categories ", " }}">
+    {{ end }}
     <meta name="author" content="Josh Padnick">
 {{ end }}
 
