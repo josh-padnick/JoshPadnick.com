@@ -10,9 +10,11 @@
                     </header>
                     <section class="meta">
                         <time datetime="{{ .Date.Format "2006-01-02 03:04:05.000" }}">{{ .Date.Format "January 2, 2006" }}</time>
-                        <span class="categories">{{ range .Params.categories }}</span>
-                        <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
+                        <span class="categories">
+                        {{ range .Params.categories }}
+                            <a href="/categories/{{ . }}/" class="badge badge-category">{{ . }}</a>
                         {{ end }}
+                    </span>
                     </section>
                     <section class="summary">
                         {{ if .Truncated }}

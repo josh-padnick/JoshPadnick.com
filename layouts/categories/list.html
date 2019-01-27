@@ -33,7 +33,7 @@
                     <section class="summary">
                         {{ if .Truncated }}
                         {{ .Summary }}
-                        <a href="{{ .RelPermalink }}">Read More...</a>
+                        <p><a href="{{ .RelPermalink }}">Read More...</a></p>
                         {{ else }}
                         {{ .Content }}
                         {{ end }}
