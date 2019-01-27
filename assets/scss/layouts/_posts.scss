@@ -1,3 +1,5 @@
+@import "../variables";
+
 .layout-posts {
 
   // Meta info
@@ -11,9 +13,10 @@
   section.meta {
     display: block;
     margin-bottom: 10px;
+    font-family: $font-family-meta;
+    font-weight: 400;
 
     time {
-      font-style: italic;
       margin-right: 10px;
     }
 
@@ -34,10 +37,10 @@
   article {
     header {
       h1 {
-        font-size:2.0rem;
+        font-size:2.5rem;
       }
 
-      h2 {
+      h1, h2 {
         a {
           color: black;
           text-decoration: none;
@@ -81,6 +84,10 @@
         margin-left: 2rem;
       }
 
+      p {
+        margin-bottom:25px;
+      }
+
       blockquote {
         margin: 0 auto 1rem;
         color: #555555;
@@ -110,5 +117,9 @@
     div.vimeo {
       margin: 0 30px 25px;
     }
+  }
+
+  section.comments {
+    margin-bottom: 50px;
   }
 }

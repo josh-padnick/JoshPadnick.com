@@ -1,145 +1,38 @@
+@import "../variables.scss";
+
 // Body
+
+html {
+  position:relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: $font-family-base;
+}
+
 a {
   text-decoration: underline;
 }
 
-// Nav
-#navContainer {
-  max-width: none;
-  position: relative;
-
-  border-bottom: 1px solid gainsboro;
-  margin-bottom: 35px;
-  background-color: #fff4e0;
-
-  #mainNav {
-    padding: 0;
-
-    a#logo {
-      margin-left: 95px;
-      padding: 6px 0 0 0;
-      display: block;
-      font-size: 2.5rem;
-      color: #666;
-      font-family: "Permanent Marker", sans-serif;
-    }
-
-    div#logoPic {
-      padding: 3px;
-      position: absolute;
-      top: 2px;
-      left: 5px;
-
-      img {
-        width: 65px;
-      }
-    }
-
-    a#logo:hover {
-      text-decoration: none;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    #collapsingNavbar {
-      margin-top:20px;
-      padding-bottom: 15px;
-      //height: 54px;
-    }
-
-    @include media-breakpoint-up(xs) {
-      div#logoPic {
-        display: none;
-      }
-
-      a#logo {
-        margin:0;
-        padding:10px 0;
-        font-size:2.0rem;
-      }
-    }
-
-    @include media-breakpoint-up(sm) {
-      div#logoPic {
-        display: block;
-      }
-
-      a#logo {
-        margin:0 0 0 95px;
-        padding: 10px 0;
-        font-size: 2.0rem;
-      }
-    }
-  }
+p, ul, ol, li {
+  font-size: 1.3rem;
 }
 
-// Pagination
-.pagination {
-
-  margin-bottom: 40px;
-
-  a {
-    text-decoration: none;
-  }
-
-  @include media-breakpoint-up(xs) {
-    li.page-item {
-      a { display:none; }
-      a.page-link-older-posts { display: block; }
-      a.page-link-newer-posts { display: block; }
-    }
-
-    a.page-link-older-posts::after {
-      content:"Older Posts \0000bb ";
-    }
-
-    a.page-link-newer-posts::after {
-      content:"\0000ab  Newer Posts";
-    }
-  }
-
-  @include media-breakpoint-up(sm) {
-    li.page-item {
-      a {
-        display: block;
-      }
-    }
-
-    a.page-link-older-posts::after {
-      content:"Older \0000bb ";
-    }
-    a.page-link-newer-posts::after {
-      content:"\0000ab  Newer";
-    }
-  }
-
-  @include media-breakpoint-up(md) {
-    a.page-link-older-posts::after {
-      content:"Older Posts \0000bb ";
-    }
-    a.page-link-newer-posts::after {
-      content:"\0000ab  Newer Posts";
-    }
-  }
+h1, h2, h3, h4, h5 {
+  font-family: $font-family-heading;
 }
 
-// Footer
-footer {
-  border-top: 1px solid gainsboro;
-  color: #bbb;
-  font-size: 0.8rem;
-  //padding-bottom: 15px;
-  position: relative;
-  bottom: 0;
-  margin-top:25px;
-  margin-bottom:15px;
-  padding-top: 10px;
+h1, h2 {
+  font-weight: 700;
+}
+
+h3, h4 {
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 600;
 }
 
 // Utilities

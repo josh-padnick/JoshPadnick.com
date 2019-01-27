@@ -1,0 +1,48 @@
+.pagination {
+
+  margin-bottom: 40px;
+
+  a {
+    text-decoration: none;
+  }
+
+  @include media-breakpoint-up(xs) {
+    li.page-item {
+      a { display:none; }
+      a.page-link-older-posts { display: block; }
+      a.page-link-newer-posts { display: block; }
+    }
+
+    a.page-link-older-posts::after {
+      content:"Older Posts \0000bb ";
+    }
+
+    a.page-link-newer-posts::after {
+      content:"\0000ab  Newer Posts";
+    }
+  }
+
+  @include media-breakpoint-up(sm) {
+    li.page-item {
+      a {
+        display: block;
+      }
+    }
+
+    a.page-link-older-posts::after {
+      content:"Older \0000bb ";
+    }
+    a.page-link-newer-posts::after {
+      content:"\0000ab  Newer";
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    a.page-link-older-posts::after {
+      content:"Older Posts \0000bb ";
+    }
+    a.page-link-newer-posts::after {
+      content:"\0000ab  Newer Posts";
+    }
+  }
+}

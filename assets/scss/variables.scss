@@ -27,9 +27,14 @@ $link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: 'Lora', 'Open Sans', 'Helvetica Neue', Arial, sans-serif,
--apple-system;
-$font-family-heading: 'Lora', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+$fa-font-path: "/webfonts/font-awesome";
+$franklin-itc-font-path: "/webfonts/franklin-itc";
+
+//$font-family-base: 'Lora', 'Open Sans', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+$font-family-base: 'Georgia', serif;
+//$font-family-heading: 'Lora', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+$font-family-meta: 'Franklin ITC', sans-serif;
+$font-family-heading: 'Franklin ITC', sans-serif;
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-weight-thin: 200;
 $font-weight-light: 300;

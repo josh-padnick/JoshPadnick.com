@@ -1,4 +1,4 @@
-.layout-categories {
+.layout-categories, .layout-posts {
 
   header.intro {
     background: #fbf7f0 url("https://basecamp.com/assets/general/patterns/bank-note-white-7850c5daa4858905a591d8ea2fb7e7f0753cb200b3342533cfc8f039105eeef4.svg") center center/6rem repeat;
@@ -13,18 +13,6 @@
     .numPostsAvailable {
       p {
         margin-bottom: 8px;
-      }
-    }
-
-    @include media-breakpoint-up(xs) {
-      h1 {
-        font-size: 2.0rem;
-      }
-    }
-
-    @include media-breakpoint-up(sm) {
-      h1 {
-        font-size: 2.5rem;
       }
     }
   }

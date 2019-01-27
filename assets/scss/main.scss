@@ -1,9 +1,11 @@
 // Font
 @import url('https://fonts.googleapis.com/css?family=Lora');
 @import url('https://fonts.googleapis.com/css?family=Permanent Marker');
+@import url('https://fonts.googleapis.com/css?family=Libre Franklin');
 
 // Bootstrap
 @import 'variables';
+@import 'fonts';
 @import 'bootstrap/functions';
 @import 'bootstrap/variables';
 @import 'bootstrap/mixins';
@@ -57,6 +59,11 @@
 @import 'layouts/contact';
 @import 'layouts/posts';
 @import 'layouts/categories';
+
+// Partials
+@import 'partials/nav';
+@import 'partials/pagination';
+@import 'partials/footer';
 
 // Display breakpoints for DEV
 // body:after {
