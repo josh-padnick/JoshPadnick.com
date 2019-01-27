@@ -14,4 +14,6 @@ My topic was on choosing the right framework for running docker containers in pr
 
 The slides are below, and if there’s a video of the talk I’ll add that here as well. Enjoy!
 
+<!--more-->
+
 {{< slideshare id="52304367" >}}

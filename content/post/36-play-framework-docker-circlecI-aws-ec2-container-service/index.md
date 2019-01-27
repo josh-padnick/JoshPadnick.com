@@ -11,6 +11,8 @@ I was invited to speak earlier tonight at [the Phoenix Java User’s Group](http
 
 I decided to do a basic walkthrough of Play Framework, and to build a continuous deployment pipeline live as part of the presentation. I wanted to actually implement something so that (a) I would be forced to pick specific technologies I could talk about, and (b) I could talk about the real-world challenges of implementing something.
 
+<!--more-->
+
 I created 4 public GitHub repos to implement this:
 
 * https://github.com/PhoenixDevOps/phxjug-ctr-base

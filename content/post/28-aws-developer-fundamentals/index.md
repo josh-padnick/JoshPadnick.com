@@ -14,4 +14,6 @@ It was exciting to see standing room only during the talk! My main concern was k
 
 I spoke both about the big picture, and then went into detail on two of the most popular AWS services, EC2 and S3. I also briefly described VPC, IAM, RDS, DynamoDB, Glacier, and SES. I received numerous positive comments on the talk, so I’m pleased post the slides below.
 
+<!--more-->
+
 {{< slideshare id="40433570" >}}

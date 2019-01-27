@@ -18,5 +18,8 @@ I recently gave a talk at Desert Code Camp 2013.2 on an introduction to [Play Fr
 * Written using a Functional Programming paradigm
 * Super-easy for creating RESTful web services
 
+<!--more-->
+
 The devil’s always in the details, of course, but it’s been a blast so far! More to come on Play…
+
 {{< slideshare id="34267737" >}}
