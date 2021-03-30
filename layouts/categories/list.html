@@ -8,7 +8,7 @@
                 <header class="intro">
                     <h1>{{ .Name }}</h1>
                     <div class="numPostsAvailable">
-                        {{ $numPosts := (.Paginate (where .Pages "Type" "post")).TotalNumberOfElements }}
+                        {{ $numPosts := (.Paginate (where .Pages "Type" "posts")).TotalNumberOfElements }}
                         {{ if eq $numPosts 1 }}
                         <p>1 post available</p>
                         {{ else }}
@@ -19,7 +19,7 @@
 
                 <hr>
 
-                {{ range (.Paginate (where .Pages "Type" "post")).Pages }}
+                {{ range (.Paginate (where .Pages "Type" "posts")).Pages }}
                 <article>
                     <header>
                         <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
