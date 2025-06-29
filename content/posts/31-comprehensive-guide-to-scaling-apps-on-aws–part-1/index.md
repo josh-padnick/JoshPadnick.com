@@ -12,12 +12,12 @@ I published a 12,000+ word guide in January on AirPair.com on building scalable 
 
 Part 2 of the article is brewing right now, mostly in the form of gaining the real-world experience necessary to write a thorough and helpful guide.
 
-~~[Read the Article on AirPair.com](https://www.airpair.com/aws/posts/building-a-scalable-web-app-on-amazon-web-services-p1)~~
+~~[Read the Article on AirPair.com](https://web.archive.org/web/20230101162936/https://www.airpair.com/aws/posts/building-a-scalable-web-app-on-amazon-web-services-p1)~~
 
 [Download the PDF](/files/A%20Comprehensive%20Guide%20to%20Building%20a%20Scalable%20Web%20App%20on%20Amazon%20Web%20Services%20-%20Part%201.pdf)
 
 
-**Update/June 9, 2025:** Eight years and two kids later, I'm back on this blog, but alas, AirPair is no longer in business. Amazingly, people still occasionally ask me for a PDF of the article, so you can now download it above.
+**Update/June 9, 2025:** Eight years and two kids later, I'm back on this blog! But alas, AirPair is no longer in business. Amazingly, people still occasionally ask me for a PDF of the article, so you can now download it above. As for part 2, I got so busy with consulting and family at the time (and later [Gruntwork](https://gruntwork.io)) that I never did have time to write it. At this point, it's no longer clear there's value to add by authoring a part 2, so I'm afraid this will remain a "part 1" series only!
 
 **Update/January 6, 2017:** Looks like AirPair is back online, so you can view the article there now!
 
